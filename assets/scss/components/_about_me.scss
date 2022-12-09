@@ -10,6 +10,9 @@
     color: $light-white;
     text-align: center;
     padding-top: 10%;
+    background-image: url(../images/backgroundwithlines.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .photo_me{
     width: 100%;
@@ -20,4 +23,17 @@
 }
 .text-desc{
     font-size: 2.2vw;
+}
+
+@media screen and (min-width: 320px) and (max-width:767px) {
+    .content{
+        background-color: $light-black;
+        display: grid;
+        grid-template-areas: "content__picture" "content__text";
+        grid-template-columns: 100vw;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .content__text{
+        max-height: max-content;
+    }
 }
