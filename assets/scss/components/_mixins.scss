@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'EB Garamond';
     src: url("../fonts/EBGaramond-Regular.woff2"),
-        url("../fonts/EBGaramond-Regular.woff2");
+        url("../fonts/EBGaramond-Regular.woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -10,7 +10,7 @@
 @font-face {
     font-family: 'EB Garamond';
     src: url("../fonts/EBGaramond-Medium.woff2"),
-        url("../fonts/EBGaramond-Medium.woff2");
+        url("../fonts/EBGaramond-Medium.woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -19,7 +19,7 @@
 @font-face {
     font-family: 'EB Garamond';
     src: url("../fonts/EBGaramond-Bold.woff2"),
-        url("../fonts/EBGaramond-Bold.woff2");
+        url("../fonts/EBGaramond-Bold.woff");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -28,12 +28,31 @@
 @font-face {
     font-family: 'EB Garamond';
     src: url("../fonts/EBGaramond-SemiBold.woff2"),
-        url("../fonts/EBGaramond-SemiBold.woff2");
+        url("../fonts/EBGaramond-SemiBold.woff");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'PF Garamond Text';
+    src: url("../fonts/PFGaramondTextLight.woff2"),
+    url("../fonts/PFGaramondTextLight.woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+//шаблоны
+
 $light-black: #1C1C1C;
 $dark-black: #141414;
 $font: 'EB Garamond';
+$font-light: 'PF Garamond Text';
+$light-white: #F5F5F5;
+
+//чтобы использовать, нужно просто указать название, например:
+//.header{ background-color: $dark-black; }
