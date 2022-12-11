@@ -5,6 +5,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "EB Garamond";
   src: url("../fonts/EBGaramond-Medium.woff2"), url("../fonts/EBGaramond-Medium.woff");
@@ -12,6 +13,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "EB Garamond";
   src: url("../fonts/EBGaramond-Bold.woff2"), url("../fonts/EBGaramond-Bold.woff");
@@ -19,6 +21,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "EB Garamond";
   src: url("../fonts/EBGaramond-SemiBold.woff2"), url("../fonts/EBGaramond-SemiBold.woff");
@@ -26,6 +29,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "PF Garamond Text";
   src: url("../fonts/PFGaramondTextLight.woff2"), url("../fonts/PFGaramondTextLight.woff");
@@ -33,6 +37,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 .page {
   margin: 0;
   padding: 0;
@@ -81,9 +86,149 @@
     grid-template-columns: 100vw;
     grid-template-rows: repeat(2, 1fr);
   }
+
   .content__text {
     max-height: max-content;
   }
+}
+
+.reviews {
+  display: grid;
+  grid-template-rows: 0.4fr 2fr 2fr;
+  background-color: #0D0E1A;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.reviews__title {
+  display: grid;
+  text-align: center;
+  font-family: "Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 84px;
+  color: #C0C0C0;
+  justify-content: center;
+  position: relative;
+  padding-left: 15%;
+  padding-right: 15%;
+  max-width: 100%;
+}
+
+.reviews__title:after {
+  content: " ";
+  background: #C0C0C0;
+  width: 80%;
+  height: 1px;
+  bottom: 15px;
+  position: absolute;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.reviews__image {
+  background-image: url(/assets/images/m-0081.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 130vh;
+}
+
+.reviews__brands {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  font-family: "Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  margin-top: -10em;
+  margin-bottom: 5%;
+  background-size: cover;
+  padding: 10px;
+}
+
+.brand-one {
+  background-color: rgba(226, 226, 226, 0.85);
+  border-radius: 40px;
+  padding: 15px;
+  opacity: 0.7;
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
+  text-align: justify;
+}
+
+.brand-two {
+  background-color: rgba(226, 226, 226, 0.85);
+  border-radius: 40px;
+  padding: 15px;
+  opacity: 0.7;
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
+  text-align: justify;
+}
+
+.brand-three {
+  background-color: rgba(226, 226, 226, 0.85);
+  border-radius: 40px;
+  padding: 15px;
+  opacity: 0.7;
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
+  text-align: justify;
+}
+
+.brand-four {
+  background-color: rgba(226, 226, 226, 0.85);
+  border-radius: 40px;
+  padding: 15px;
+  opacity: 0.7;
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
+  text-align: justify;
+}
+
+.brand-five {
+  background-color: rgba(226, 226, 226, 0.85);
+  border-radius: 40px;
+  padding: 15px;
+  opacity: 0.7;
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
+  text-align: justify;
+}
+
+.brand-six {
+  background-color: rgba(226, 226, 226, 0.85);
+  border-radius: 40px;
+  padding: 15px;
+  opacity: 0.7;
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
+  text-align: justify;
+}
+
+.reviews__lines {
+  background-color: none;
+  height: 70vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-left: 3px solid #C0C0C0;
+  border-right: 3px solid #C0C0C0;
+  margin-top: -2100px;
+}
+
+.brand-one__image,
+.brand-two__image,
+.brand-three__image,
+.brand-four__image,
+.brand-five__image,
+.brand-six__image {
+  display: grid;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=index.css.map */
