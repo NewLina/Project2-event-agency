@@ -1,5 +1,5 @@
 .content{
-    background-color: $light-black;
+    background-color: $light-blue;
     display: grid;
     grid-template-areas: "content__picture" "content__text";
     grid-template-columns: 50% 50%;
@@ -7,10 +7,10 @@
 }
 
 .content__text{
-    color: $light-white;
+    color: $silver;
     text-align: center;
     padding-top: 10%;
-    background-image: url(../images/backgroundwithlines.png);
+    background-image: url(../images/backgroundlines.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -27,7 +27,7 @@
 
 @media screen and (min-width: 320px) and (max-width:767px) {
     .content{
-        background-color: $light-black;
+        background-color: $light-blue;
         display: grid;
         grid-template-areas: "content__picture" "content__text";
         grid-template-columns: 100vw;
