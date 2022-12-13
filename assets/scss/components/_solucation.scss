@@ -94,3 +94,31 @@ grid-column: 1 / span 8;
     text-align: center;
     color: $silver;
 }
+
+.arrow-back__link{
+    text-decoration: none;
+    color: $silver;
+    cursor: pointer;
+    padding: 0 0 0.5% 1%;
+    font-size: 1vw;
+    &:hover{
+        color: $light-white;
+    }
+}
+.arrow-back__pic{
+    width: 1.5%;
+}
+
+//mobile
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    
+    .gallery-solucation{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(47, auto);
+        grid-gap: 0.5vw;
+    }
+.arrow-back__link{
+    font-size: 2vw;
+}
+}
