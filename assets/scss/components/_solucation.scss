@@ -19,7 +19,7 @@
 .gallery-solucation{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(47, 10vw);
+    grid-template-rows: repeat(46, 10vw);
     grid-gap: 0.5vw;
 }
 
@@ -115,8 +115,12 @@ grid-column: 1 / span 8;
     .gallery-solucation{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: repeat(47, auto);
+        grid-template-rows: repeat(46, auto);
         grid-gap: 0.5vw;
+    }
+    .gallery-solucation__item{
+        grid-column: 1 / auto;
+        grid-row: auto;
     }
 .arrow-back__link{
     font-size: 2vw;
