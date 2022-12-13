@@ -31,6 +31,8 @@
     position: absolute;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 0.5em;
+
 }
 
 .reviews__image {
@@ -42,8 +44,7 @@
 
 .reviews__brands {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     font-family: 'Garamond';
     font-style: normal;
