@@ -396,6 +396,133 @@
   justify-content: center;
 }
 
+.page-cato {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background-color: #12121D;
+}
+
+.gallery-cato__item {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-cato__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-cato {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(16, 10vw);
+  grid-gap: 0.6vw;
+}
+
+.gallery-cato__item--1 {
+  grid-column: 1/span 4;
+  grid-row: 1/span 4;
+}
+
+.gallery-cato__item--2 {
+  grid-column: 5/span 4;
+  grid-row: 1/span 4;
+}
+
+.gallery-cato__item--3 {
+  grid-column: 1/span 3;
+  grid-row: 5/span 5;
+}
+
+.gallery-cato__item--4 {
+  grid-column: 4/span 5;
+  grid-row: 5/span 4;
+}
+
+.gallery-cato__item--5 {
+  grid-column: 1/span 3;
+  grid-row: 10/span 4;
+}
+
+.gallery-cato__item--6 {
+  grid-column: 4/span 5;
+  grid-row: 9/span 4;
+}
+
+.gallery-cato__item--7 {
+  grid-column: 1/span 3;
+  grid-row: 14/span 5;
+}
+
+.gallery-cato__item--8 {
+  grid-column: 4/span 5;
+  grid-row: 13/span 4;
+}
+
+.gallery-cato__item--9 {
+  grid-column: 4/span 5;
+  grid-row: 17/span 3;
+}
+
+.gallery-cato__item--10 {
+  grid-column: 1/span 3;
+  grid-row: 19/span 4;
+}
+
+.gallery-cato__item--11 {
+  grid-column: 4/span 5;
+  grid-row: 20/span 3;
+}
+
+.gallery-cato__item--12 {
+  grid-column: 1/span 8;
+  grid-row: 23/span 3;
+}
+
+.gallery-cato__item--13 {
+  grid-column: 1/span 5;
+  grid-row: 26/span 5;
+}
+
+.gallery-cato__item--14 {
+  grid-column: 6/span 3;
+  grid-row: 26/span 5;
+}
+
+.gallery-cato__item--15 {
+  grid-column: 1/span 3;
+  grid-row: 31/span 4;
+}
+
+.gallery-cato__item--16 {
+  grid-column: 4/span 5;
+  grid-row: 31/span 4;
+}
+
+.gallery-cato__text {
+  font-family: "EB Garamond";
+  font-size: 2.8vw;
+  text-align: center;
+  color: #C0C0C0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .gallery-cato {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(16, auto);
+    grid-gap: 0.5vw;
+  }
+  .gallery-cato__item {
+    grid-column: 1/auto;
+    grid-row: auto;
+  }
+  .arrow-back__link {
+    font-size: 2vw;
+  }
+}
 .page-incentive-dinner {
   margin: 0;
   padding: 0;
@@ -417,7 +544,7 @@
 .gallery-incentive-dinner {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(35, 10vw);
+  grid-template-rows: repeat(21, 10vw);
   grid-gap: 0.5vw;
 }
 
@@ -528,31 +655,16 @@
 
 .gallery-incentive-dinner__text {
   font-family: "EB Garamond";
-  font-size: 1.5vw;
+  font-size: 2.8vw;
   text-align: center;
   color: #C0C0C0;
-}
-
-.arrow-back__link {
-  text-decoration: none;
-  color: #C0C0C0;
-  cursor: pointer;
-  padding: 0 0 0.5% 1%;
-  font-size: 1vw;
-}
-.arrow-back__link:hover {
-  color: #F5F5F5;
-}
-
-.arrow-back__pic {
-  width: 1.5%;
 }
 
 @media screen and (min-width: 320px) and (max-width: 600px) {
   .gallery-incentive-dinner {
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: repeat(35, auto);
+    grid-template-rows: repeat(21, auto);
     grid-gap: 0.5vw;
   }
   .gallery-incentive-dinner__item {
@@ -584,7 +696,7 @@
 .gallery-solucation {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(46, 10vw);
+  grid-template-rows: repeat(16, 10vw);
   grid-gap: 0.5vw;
 }
 
@@ -670,17 +782,20 @@
 
 .gallery-solucation__text {
   font-family: "EB Garamond";
-  font-size: 1.5vw;
+  font-size: 2.8vw;
   text-align: center;
   color: #C0C0C0;
+}
+
+.arrow-back {
+  padding: 1% 0 0.5% 1%;
 }
 
 .arrow-back__link {
   text-decoration: none;
   color: #C0C0C0;
   cursor: pointer;
-  padding: 0 0 0.5% 1%;
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
 .arrow-back__link:hover {
   color: #F5F5F5;
@@ -694,7 +809,7 @@
   .gallery-solucation {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(46, auto);
+    grid-template-rows: repeat(16, auto);
     grid-gap: 0.5vw;
   }
   .gallery-solucation__item {

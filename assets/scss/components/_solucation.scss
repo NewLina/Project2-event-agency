@@ -19,7 +19,7 @@
 .gallery-solucation{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(46, 10vw);
+    grid-template-rows: repeat(16, 10vw);
     grid-gap: 0.5vw;
 }
 
@@ -90,17 +90,19 @@ grid-column: 1 / span 8;
 
 .gallery-solucation__text{
     font-family: $font;
-    font-size: 1.5vw;
+    font-size: 2.8vw;
     text-align: center;
     color: $silver;
+}
+.arrow-back{
+    padding: 1% 0 0.5% 1%;
 }
 
 .arrow-back__link{
     text-decoration: none;
     color: $silver;
     cursor: pointer;
-    padding: 0 0 0.5% 1%;
-    font-size: 1vw;
+    font-size: 1.5vw;
     &:hover{
         color: $light-white;
     }
@@ -115,7 +117,7 @@ grid-column: 1 / span 8;
     .gallery-solucation{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: repeat(46, auto);
+        grid-template-rows: repeat(16, auto);
         grid-gap: 0.5vw;
     }
     .gallery-solucation__item{
