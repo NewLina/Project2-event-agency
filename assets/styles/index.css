@@ -418,6 +418,43 @@
   justify-content: center;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .reviews {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 8fr;
+    background-color: #0D0E1A;
+    background-size: cover;
+  }
+  .reviews__image {
+    display: none;
+  }
+  .reviews__title {
+    display: grid;
+    text-align: center;
+    font-family: "Garamond";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 30px;
+    color: #C0C0C0;
+    justify-content: center;
+  }
+  .reviews__title:after {
+    display: none;
+  }
+  .reviews__brands {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, auto);
+    grid-gap: 20px;
+    font-family: "Garamond";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+  }
+}
 .page-alphamundi {
   margin: 0;
   padding: 0;
