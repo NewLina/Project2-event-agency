@@ -90,9 +90,13 @@ grid-column: 4 / span 5;
 
 .gallery-cato__text{
     font-family: $font;
-    font-size: 2.8vw;
+    font-size: 3vw;
     text-align: center;
     color: $silver;
+}
+.gallery-cato__desc{
+    font-size: 2.7vw;
+    padding: 0 11% 5% 11%;
 }
 
 //mobile
@@ -110,5 +114,8 @@ grid-column: 4 / span 5;
     }
 .arrow-back__link{
     font-size: 2vw;
+}
+.gallery-cato__desc{
+    font-size: 3vw;
 }
 }

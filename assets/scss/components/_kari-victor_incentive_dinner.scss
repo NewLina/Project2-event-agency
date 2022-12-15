@@ -111,9 +111,12 @@ grid-row: 31 / span 5;
 
 .gallery-incentive-dinner__text{
     font-family: $font;
-    font-size: 2.8vw;
+    font-size: 3vw;
     text-align: center;
     color: $silver;
+}
+.gallery-incentive-dinner__desc{
+    font-size: 2.7vw;
 }
 
 
@@ -133,5 +136,8 @@ grid-row: 31 / span 5;
 
 .arrow-back__link{
     font-size: 2vw;
+}
+.gallery-incentive-dinner__desc{
+    font-size: 3vw;
 }
 }

@@ -90,9 +90,12 @@ grid-column: 1 / span 8;
 
 .gallery-solucation__text{
     font-family: $font;
-    font-size: 2.8vw;
+    font-size: 3vw;
     text-align: center;
     color: $silver;
+}
+.gallery-solucation__desc{
+    font-size: 2.7vw;
 }
 .arrow-back{
     padding: 1% 0 0.5% 1%;
@@ -126,5 +129,8 @@ grid-column: 1 / span 8;
     }
 .arrow-back__link{
     font-size: 2vw;
+}
+.gallery-solucation__desc{
+    font-size: 3vw;
 }
 }
