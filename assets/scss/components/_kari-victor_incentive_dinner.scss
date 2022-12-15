@@ -20,7 +20,7 @@
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(21, 10vw);
-    grid-gap: 0.5vw;
+    grid-gap: 0.6vw;
 }
 
 .gallery-incentive-dinner__item--1{
@@ -124,7 +124,7 @@ grid-row: 31 / span 5;
         display: grid;
         grid-template-columns: 100vw;
         grid-template-rows: repeat(21, auto);
-        grid-gap: 0.5vw;
+        grid-gap: 0.6vw;
     }
     .gallery-incentive-dinner__item{
         grid-column: 1 / auto;

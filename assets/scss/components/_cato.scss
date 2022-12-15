@@ -102,7 +102,7 @@ grid-column: 4 / span 5;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: repeat(16, auto);
-        grid-gap: 0.5vw;
+        grid-gap: 0.6vw;
     }
     .gallery-cato__item{
         grid-column: 1 / auto;
