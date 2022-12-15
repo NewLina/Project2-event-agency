@@ -265,10 +265,9 @@
 }
 .reviews {
   display: grid;
-  grid-template-rows: 0.4fr 2fr 2fr;
+  grid-template-rows: 0.1fr 0.7fr 0.1fr;
   background-color: #0D0E1A;
   background-size: cover;
-  max-width: 100%;
 }
 
 .reviews__title {
@@ -282,9 +281,9 @@
   color: #C0C0C0;
   justify-content: center;
   position: relative;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding: 15px;
   max-width: 100%;
+  background-size: cover;
 }
 
 .reviews__title:after {
@@ -296,30 +295,35 @@
   position: absolute;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 0.5em;
+  margin-top: 1.5em;
 }
 
 .reviews__image {
   background-image: url(/assets/images/m-0081.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 130vh;
+  max-width: 100%;
+  background-position: center center;
 }
 
 .reviews__brands {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, 390px);
+  grid-gap: 15px;
   font-family: "Garamond";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
   color: #000000;
-  margin-top: -10em;
-  margin-bottom: 5%;
-  background-size: cover;
   padding: 10px;
+  align-items: stretch;
+  max-width: 100%;
+  object-fit: cover;
+  justify-content: space-around;
+  position: relative;
+  top: -80px;
+  padding-bottom: 0;
 }
 
 .brand-one {
@@ -328,7 +332,7 @@
   padding: 15px;
   opacity: 0.7;
   display: grid;
-  grid-template-rows: 0.5fr 1fr;
+  grid-template-rows: 0.1fr 0.3fr;
   text-align: justify;
 }
 
@@ -338,7 +342,7 @@
   padding: 15px;
   opacity: 0.7;
   display: grid;
-  grid-template-rows: 0.5fr 1fr;
+  grid-template-rows: 0.1fr 0.3fr;
   text-align: justify;
 }
 
@@ -348,7 +352,7 @@
   padding: 15px;
   opacity: 0.7;
   display: grid;
-  grid-template-rows: 0.5fr 1fr;
+  grid-template-rows: 0.1fr 0.3fr;
   text-align: justify;
 }
 
@@ -358,7 +362,7 @@
   padding: 15px;
   opacity: 0.7;
   display: grid;
-  grid-template-rows: 0.5fr 1fr;
+  grid-template-rows: 0.1fr 0.3fr;
   text-align: justify;
 }
 
@@ -368,7 +372,7 @@
   padding: 15px;
   opacity: 0.7;
   display: grid;
-  grid-template-rows: 0.5fr 1fr;
+  grid-template-rows: 0.1fr 0.3fr;
   text-align: justify;
 }
 
@@ -378,7 +382,7 @@
   padding: 15px;
   opacity: 0.7;
   display: grid;
-  grid-template-rows: 0.5fr 1fr;
+  grid-template-rows: 0.1fr 0.3fr;
   text-align: justify;
 }
 
