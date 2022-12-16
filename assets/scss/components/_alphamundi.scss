@@ -94,9 +94,14 @@ grid-column: 1 / span 8;
     text-align: center;
     color: $silver;
 }
-.gallery-alphamundi__desc{
-    font-size: 2.7vw;
-    padding: 0 11% 5% 11%;
+.gallery-alphamundi__desc_first{
+    font-size: 2.8vw;
+    padding: 0 11% 0 11%;
+}
+.gallery-alphamundi__desc_last{
+font-size: 2.8vw;
+padding: 0 11% 5% 11%;
+line-height: 130%;
 }
 
 //mobile
@@ -116,6 +121,10 @@ grid-column: 1 / span 8;
     font-size: 2vw;
 }
 .gallery-alphamundi__desc{
-    font-size: 3vw;
+    font-size: 4.5vw;
+    line-height: 140%;
+}
+.gallery-alphamundi__text{
+    font-size: 5.5vw;
 }
 }

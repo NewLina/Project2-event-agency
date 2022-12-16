@@ -114,8 +114,14 @@ grid-column: 5 / span 4;
     text-align: center;
     color: $silver;
 }
-.gallery-changer-club__desc{
-    font-size: 2.7vw;
+.gallery-changer-club__desc_first{
+    font-size: 2.8vw;
+    padding: 0 11% 0 11%;
+}
+.gallery-changer-club__desc_last{
+    font-size: 2.8vw;
+    padding: 0 11% 5% 11%;
+    line-height: 130%;
 }
 
 //mobile
@@ -135,6 +141,10 @@ grid-column: 5 / span 4;
     font-size: 2vw;
 }
 .gallery-changer-club__desc{
-    font-size: 3vw;
+    font-size: 4.5vw;
+    line-height: 140%;
+}
+.gallery-changer-club__text{
+    font-size: 5.5vw;
 }
 }
