@@ -1,20 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Fira+Sans:wght@400;500&family=Inter:wght@400;700&family=Montserrat:wght@700&family=Open+Sans:wght@400;500&family=Oswald:wght@400;500&family=Roboto:ital,wght@0,500;1,100&family=Saira:wght@700&display=swap');
-
-* {
-    margin: 0;
-    
-}
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-}
-.page {
-    overflow: hidden;/*убирает горизонтальный скролл*/
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-}
 
 html{
     scroll-behavior: smooth;
