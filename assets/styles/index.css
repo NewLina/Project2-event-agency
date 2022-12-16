@@ -583,7 +583,7 @@
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: repeat(16, auto);
-    grid-gap: 0.6vw;
+    grid-gap: 0.8vw;
   }
   .gallery-alphamundi__item {
     grid-column: 1/auto;
@@ -728,7 +728,7 @@
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: repeat(16, auto);
-    grid-gap: 0.6vw;
+    grid-gap: 0.8vw;
   }
   .gallery-cato__item {
     grid-column: 1/auto;
@@ -898,7 +898,7 @@
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: repeat(21, auto);
-    grid-gap: 0.6vw;
+    grid-gap: 0.8vw;
   }
   .gallery-changer-club__item {
     grid-column: 1/auto;
