@@ -476,7 +476,7 @@
 .gallery-alphamundi {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(16, 10vw);
+  grid-template-rows: repeat(30, 10vw);
   grid-gap: 0.6vw;
 }
 
@@ -621,7 +621,7 @@
 .gallery-cato {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(16, 10vw);
+  grid-template-rows: repeat(34, 10vw);
   grid-gap: 0.6vw;
 }
 
@@ -766,7 +766,7 @@
 .gallery-changer-club {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(21, 10vw);
+  grid-template-rows: repeat(38, 10vw);
   grid-gap: 0.6vw;
 }
 
@@ -936,7 +936,7 @@
 .gallery-deep-tech {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(22, 10vw);
+  grid-template-rows: repeat(44, 10vw);
   grid-gap: 0.6vw;
 }
 
@@ -1111,7 +1111,7 @@
 .gallery-influ2 {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(22, 10vw);
+  grid-template-rows: repeat(41, 10vw);
   grid-gap: 0.6vw;
 }
 
@@ -1286,7 +1286,7 @@
 .gallery-incentive-dinner {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(21, 10vw);
+  grid-template-rows: repeat(35, 10vw);
   grid-gap: 0.6vw;
 }
 
@@ -1456,7 +1456,7 @@
 .gallery-soulcation {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(16, 10vw);
+  grid-template-rows: repeat(46, 10vw);
   grid-gap: 0.5vw;
 }
 
