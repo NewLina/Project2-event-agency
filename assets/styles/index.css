@@ -98,7 +98,7 @@ html {
   text-decoration: none;
   display: block;
   padding: 1px 35px;
-  font-size: 35px;
+  font-size: 3vw;
   background: linear-gradient(#C0C0C0 0 0) 0 100%/var(--t, 0) 2px no-repeat;
   transition: 0.5s;
 }
@@ -174,7 +174,7 @@ html {
   right: 0;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 570px) {
   .hamburger,
   .toggle-menu {
     display: block;
