@@ -1,0 +1,49 @@
+
+.contacts_social{
+    background-color: $light-blue;
+    display: flex;
+    flex-direction: column;
+    color: $silver;
+    text-align: center;
+    padding-top: 5%;
+    margin: 0 0% 0 0%;
+   
+}
+.contacts_fon{
+    width: 100%;
+    background-image: url(../images/.contacts_fon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 9% 0 9%;
+}
+.contacts_social p{
+    font-family: $font-light;
+    font-size: 3.5vw;
+    color: aliceblue;
+}
+.contacts_social_link img{
+    width: 35px;
+    height: 35px;
+    color: antiquewhite;
+}
+
+@media screen and (min-width: 320px) and (max-width:767px) {
+    .content{
+        background-color: $light-blue;
+        display: grid;
+        grid-template-areas: "content__picture" "content__text";
+        grid-template-columns: 100vw;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .content__text{
+        max-height: max-content;
+    }
+    .text-title{
+            font-size: 10vw;}
+    .text-desc_about-me{
+        font-size: 4.2vw;
+    }
+    .text-title_about-me{
+        margin-bottom: 7%;
+    }
+}
