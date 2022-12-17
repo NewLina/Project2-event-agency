@@ -1,49 +1,62 @@
 
-.contacts_social{
-    background-color: $light-blue;
+.contacts{
+    background: url("../images/contacts_fon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     color: $silver;
+    font-size: 2vw;
     text-align: center;
-    padding-top: 5%;
-    margin: 0 0% 0 0%;
-   
+    padding: 2%;
 }
-.contacts_fon{
-    width: 100%;
-    background-image: url(../images/.contacts_fon.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 0 9% 0 9%;
-}
-.contacts_social p{
+
+.contacts_text p1{
     font-family: $font-light;
-    font-size: 3.5vw;
-    color: aliceblue;
+    font-size: 4vw;
+    color: #f7f0f0;
+}
+
+.contacts_text p2{
+    font-family: $font-light;
+    font-size: 2vw;
+    color: #f7f0f0;
+    padding: 10 10% 10 10%;
+    
 }
 .contacts_social_link img{
     width: 35px;
     height: 35px;
-    color: antiquewhite;
+    color: #f7f0f0;
+    margin: 1%;
 }
 
 @media screen and (min-width: 320px) and (max-width:767px) {
     .content{
-        background-color: $light-blue;
-        display: grid;
-        grid-template-areas: "content__picture" "content__text";
-        grid-template-columns: 100vw;
-        grid-template-rows: repeat(2, 1fr);
+        background: url("../images/contacts_fon.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        color: $silver;
+        font-size: 2vw;
+        text-align: center;
+        padding-top: 1%;
     }
     .content__text{
         max-height: max-content;
     }
-    .text-title{
-            font-size: 10vw;}
-    .text-desc_about-me{
-        font-size: 4.2vw;
+    .contacts_text p1{
+        font-family: $font-light;
+        font-size: 4vw;
+        color: #f7f0f0;
     }
-    .text-title_about-me{
-        margin-bottom: 7%;
+    
+    .contacts_text p2{
+        font-family: $font-light;
+        font-size: 2vw;
+        color: #f7f0f0;
+        padding: 10 10% 10 10%;
+        
     }
 }
