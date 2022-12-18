@@ -34,6 +34,10 @@
   font-style: normal;
   font-display: swap;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 .page {
   margin: 0;
   padding: 0;
@@ -715,10 +719,6 @@ html {
     max-height: max-content;
   }
 }
-html {
-  scroll-behavior: smooth;
-}
-
 .footer {
   position: relative;
   max-width: 100vw;
