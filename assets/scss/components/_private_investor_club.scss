@@ -18,109 +18,106 @@
 .gallery-private-investor-club{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(35, 10vw);
+    grid-template-rows: repeat(49, 10vw);
     grid-gap: 0.6vw;
 }
 
 .gallery-private-investor-club__item--1{
-grid-column: 1 / span 4;
+grid-column: 1 / span 6;
 grid-row: 1 / span 3; 
 }
 .gallery-private-investor-club__item--2{
-grid-column: 5 / span 4;
+grid-column: 7 / span 2;
 grid-row: 1 / span 3; 
 }
 .gallery-private-investor-club__item--3{
-grid-column: 1 / span 3;
+grid-column: 1 / span 5;
 grid-row: 4 / span 3; 
 }
 .gallery-private-investor-club__item--4{
-grid-column: 4 / span 5;
-grid-row: 4 / span 3; 
-}
-.gallery-private-investor-club__item--5{
 grid-column: 1 / span 5;
 grid-row: 7 / span 3; 
 }
+
 .gallery-private-investor-club__item--6{
 grid-column: 6 / span 3;
-grid-row: 7 / span 3; 
+grid-row: 4 / span 4; 
 }
 .gallery-private-investor-club__item--7{
-grid-column: 1 / span 6;
-grid-row: 10 / span 3; 
+grid-column: 6 / span 3;
+grid-row: 8/ span 4; 
 }
 .gallery-private-investor-club__item--8{
-grid-column: 7 / span 2;
-grid-row: 10 / span 3; 
+grid-column: 6 / span 3;
+grid-row: 12 / span 4; 
 }
 .gallery-private-investor-club__item--9{
-grid-column: 1 / span 3;
-grid-row: 13 / span 3; 
+grid-column: 1 / span 5;
+grid-row: 10 / span 3; 
 }
 .gallery-private-investor-club__item--10{
-grid-column: 4 / span 5;
-grid-row: 13 / span 3; 
+grid-column: 1 / span 5;
+grid-row: 13 / span 6; 
 }
 .gallery-private-investor-club__item--11{
 grid-column: 1 / span 5;
-grid-row: 16 / span 3; 
+grid-row: 19 / span 3; 
 }
 .gallery-private-investor-club__item--12{
 grid-column: 6 / span 3;
-grid-row: 16 / span 6; 
+grid-row: 16 / span 5; 
 }
 .gallery-private-investor-club__item--13{
-grid-column: 1 / span 5;
-grid-row: 19 / span 3; 
+grid-column: 6 / span 3;
+grid-row: 21 / span 4; 
 }
 .gallery-private-investor-club__item--14{
-grid-column: 1 / span 3;
-grid-row: 22 / span 6; 
+grid-column: 1 / span 5;
+grid-row: 22 / span 3; 
 }
 .gallery-private-investor-club__item--15{
-grid-column: 4 / span 5;
-grid-row: 22 / span 3; 
+grid-column: 1 / span 8;
+grid-row: 25 / span 4; 
 }
 .gallery-private-investor-club__item--16{
 grid-column: 4 / span 5;
-grid-row: 25 / span 3;    
+grid-row: 29 / span 3;    
 }
 .gallery-private-investor-club__item--17{
-grid-column: 1 / span 2;
-grid-row: 28 / span 5;    
+grid-column: 1 / span 3;
+grid-row: 29 / span 5;    
 }
 .gallery-private-investor-club__item--18{
-grid-column: 3 / span 2;
-grid-row: 28 / span 5;    
+grid-column: 4 / span 5;
+grid-row: 32 / span 6;    
 }
 .gallery-private-investor-club__item--19{
-    grid-column: 3 / span 2;
-    grid-row: 28 / span 5;    
+    grid-column: 1 / span 3;
+    grid-row: 34 / span 4;    
 }
     .gallery-private-investor-club__item--20{
-        grid-column: 3 / span 2;
-        grid-row: 28 / span 5;    
+        grid-column: 1 / span 8;
+        grid-row: 38 / span 4;    
 }
 .gallery-private-investor-club__item--21{
-    grid-column: 3 / span 2;
-    grid-row: 28 / span 5;    
+    grid-column: 1 / span 3;
+    grid-row: 42 / span 4;    
 }
 .gallery-private-investor-club__item--22{
-    grid-column: 3 / span 2;
-    grid-row: 28 / span 5;    
+    grid-column: 4 / span 3;
+    grid-row: 42 / span 4;    
 }
 .gallery-private-investor-club__item--23{
-    grid-column: 3 / span 2;
-    grid-row: 28 / span 5;    
+    grid-column: 7 / span 2;
+    grid-row: 42 / span 4;    
 }
 .gallery-private-investor-club__item--24{
-    grid-column: 3 / span 2;
-    grid-row: 28 / span 5;    
+    grid-column: 1 / span 3;
+    grid-row: 46 / span 3;    
 }
 .gallery-private-investor-club__item--25{
-    grid-column: 3 / span 2;
-    grid-row: 28 / span 5;    
+    grid-column:  4 / span 5;
+    grid-row: 46 / span 3;    
 }
 .page-private-investor-club__text{
     font-family: $font;
