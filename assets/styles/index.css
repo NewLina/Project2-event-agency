@@ -34,10 +34,18 @@
   font-style: normal;
   font-display: swap;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 .page {
   margin: 0;
   padding: 0;
   max-width: 100%;
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
 }
 
 * {
@@ -456,6 +464,68 @@ html {
     height: 50%;
   }
 }
+.partners__list {
+  background: url(../images/background_partners.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.partners {
+  display: grid;
+  grid-template-areas: "partners__heading" "partners__list";
+  grid-template-columns: 8% 1fr;
+  height: max-content;
+}
+
+.partners__heading {
+  grid-area: partners__heading;
+  background-color: #141414;
+  display: grid;
+  grid-template-rows: 20% auto 20%;
+}
+
+.partners__heading_vertical {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  align-self: center;
+  justify-self: center;
+}
+
+.partners__heading_vertical {
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  color: #C0C0C0;
+  font-size: 3.5vw;
+}
+
+.partners__list__img {
+  object-fit: fill;
+}
+
+.partners__list__logo {
+  width: 60%;
+}
+
+.partners__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2%;
+  padding: 5% 0 5% 5%;
+  justify-items: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .partners__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    height: max-content;
+    padding-bottom: 10%;
+  }
+  .partners__list__logo {
+    width: 25vw;
+  }
+}
 .reviews {
   display: grid;
   grid-template-rows: 0.1fr 0.7fr 0.1fr;
@@ -711,10 +781,6 @@ html {
     max-height: max-content;
   }
 }
-html {
-  scroll-behavior: smooth;
-}
-
 .footer {
   position: relative;
   max-width: 100vw;
@@ -726,19 +792,17 @@ html {
   justify-content: space-between;
 }
 
-.logo_footer img {
-  display: flex;
+.footer__logo img {
   width: 75%;
   height: 95%;
 }
 
-.back_to_top img {
-  display: flex;
+.footer__back_to_top img {
   width: 75%;
   height: 95%;
 }
 
-.back_to_top a span {
+.footer__back_to_top a span {
   cursor: pointer;
 }
 
@@ -1262,7 +1326,14 @@ img {
   padding: 0 11% 5% 11%;
   line-height: 130%;
   color: #C0C0C0;
-  text-align: justify;
+  text-align: center;
+}
+
+.beglobe__head {
+  font-family: "EB Garamond";
+  font-size: 4vw;
+  color: #C0C0C0;
+  text-align: center;
 }
 
 .page-cato {
