@@ -1264,7 +1264,14 @@ img {
   padding: 0 11% 5% 11%;
   line-height: 130%;
   color: #C0C0C0;
-  text-align: justify;
+  text-align: center;
+}
+
+.beglobe__head {
+  font-family: "EB Garamond";
+  font-size: 4vw;
+  color: #C0C0C0;
+  text-align: center;
 }
 
 .page-cato {
