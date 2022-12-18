@@ -14,18 +14,16 @@ html{
     
   }
 
-   .logo_footer img {
-    display: flex;
+   .footer__logo img{
     width: 75%;
     height: 95%;
   }
   
-  .back_to_top img {
-   display: flex;
+  .footer__back_to_top img {
    width: 75%;
    height: 95%;
   }
 
-  .back_to_top a span {
+  .footer__back_to_top a span {
     cursor: pointer;
   }
