@@ -238,6 +238,7 @@ html {
 .text-title {
   font-family: "PF Garamond Text";
   font-size: 3.5vw;
+  padding-top: 8%;
 }
 
 .text-desc {
@@ -633,56 +634,58 @@ html {
   flex-direction: column;
   color: #C0C0C0;
   font-size: 2vw;
-  text-align: center;
   padding: 2%;
   height: 30%;
 }
 
-.contacts_text p1 {
+.contacts__text {
+  text-align: center;
+}
+
+.contacts__text h1 {
   font-family: "PF Garamond Text";
   font-size: 4vw;
   color: #f7f0f0;
+  padding-bottom: 2%;
 }
 
-.contacts_text p2 {
-  font-family: "PF Garamond Text";
-  font-size: 2vw;
+.socials-img {
+  width: 12%;
+  height: 12%;
   color: #f7f0f0;
-  padding: 10 10% 10 10%;
+  padding-right: 5%;
+  padding-bottom: 2%;
 }
 
-.contacts_social_link img {
-  width: 35px;
-  height: 35px;
+.contacts__social li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.socials-link {
   color: #f7f0f0;
-  margin: 1%;
+  font-size: 3vw;
+}
+.socials-link:hover {
+  color: #C0C0C0;
+}
+
+.contacts__social {
+  display: grid;
+  grid-template-columns: 30% auto 30%;
+}
+
+.social-networks {
+  grid-column-start: 2;
+  grid-column-end: 4;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .content {
-    background: url("../images/contacts_fon.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    color: #C0C0C0;
-    font-size: 2vw;
-    text-align: center;
     padding-top: 1%;
   }
   .content__text {
     max-height: max-content;
-  }
-  .contacts_text p1 {
-    font-family: "PF Garamond Text";
-    font-size: 4vw;
-    color: #f7f0f0;
-  }
-  .contacts_text p2 {
-    font-family: "PF Garamond Text";
-    font-size: 2vw;
-    color: #f7f0f0;
-    padding: 10 10% 10 10%;
   }
 }
 html {
