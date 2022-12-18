@@ -1,0 +1,214 @@
+
+.page-immunefi{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    background-color: $light-blue;
+}
+
+.gallery-immunefi__item{
+    margin: 0;
+    padding: 0;
+}
+.gallery-immunefi__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-immunefi{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(44, 10vw);
+    grid-gap: 0.6vw;
+}
+
+.gallery-immunefi__item--1{
+    grid-column: 1 / span 5;
+    grid-row: 1 / span 4; 
+}
+.gallery-immunefi__item--2{
+grid-column: 6 / span 3;
+    grid-row: 1 / span 4; 
+}
+.gallery-immunefi__item--3{
+grid-column: 1 / span 3;
+    grid-row: 5 / span 4; 
+}
+.gallery-immunefi__item--4{
+grid-column: 4 / span 5;
+    grid-row: 5 / span 4; 
+}
+.gallery-immunefi__item--5{
+grid-column: 1 / span 8;
+    grid-row: 9 / span 4; 
+}
+.gallery-immunefi__item--6{
+grid-column: 1 / span 5;
+    grid-row: 13 / span 4; 
+}
+.gallery-immunefi__item--7{
+grid-column: 6 / span 3;
+    grid-row: 13 / span 4; 
+}
+.gallery-immunefi__item--8{
+grid-column: 1 / span 8;
+    grid-row: 17 / span 4; 
+}
+.gallery-immunefi__item--9{
+grid-column: 1 / span 3;
+    grid-row: 21 / span 5; 
+}
+.gallery-immunefi__item--10{
+grid-column: 4 / span 5;
+    grid-row: 21 / span 3; 
+}
+.gallery-immunefi__item--11{
+grid-column: 4 / span 5;
+    grid-row: 24 / span 3; 
+}
+.gallery-immunefi__item--12{
+grid-column: 1 / span 3;
+    grid-row: 26 / span 5; 
+}
+.gallery-immunefi__item--13{
+grid-column: 4 / span 2;
+    grid-row: 27 / span 5; 
+}
+.gallery-immunefi__item--14{
+grid-column: 6 / span 3;
+    grid-row: 27 / span 5; 
+}
+.gallery-immunefi__item--15{
+grid-column: 1 / span 3;
+    grid-row: 31 / span 5; 
+}
+.gallery-immunefi__item--16{
+grid-column: 4 / span 5;
+    grid-row: 32 / span 4;    
+}
+.gallery-immunefi__item--17{
+grid-column: 1 / span 2;
+grid-row: 36 / span 5;    
+    }
+.gallery-immunefi__item--18{
+grid-column: 3 / span 3;
+grid-row: 36 / span 5;    
+}
+.gallery-immunefi__item--19{
+grid-column: 6 / span 3;
+grid-row: 36 / span 5;    
+}
+.gallery-immunefi__item--20{
+grid-column: 1 / span 3;
+grid-row: 41 / span 4;    
+}
+.gallery-immunefi__item--21{
+grid-column: 4 / span 2;
+grid-row: 41 / span 4;    
+}
+.gallery-immunefi__item--22{
+grid-column: 6 / span 3;
+grid-row: 41 / span 4;    
+}
+.gallery-immunefi__item--23{
+    grid-column: 6 / span 3;
+    grid-row: 41 / span 4;    
+}
+.gallery-immunefi__item--24{
+    grid-column: 6 / span 3;
+    grid-row: 41 / span 4;    
+}
+.gallery-immunefi__item--25{
+    grid-column: 6 / span 3;
+    grid-row: 41 / span 4;    
+}
+.gallery-immunefi__item--26{
+    grid-column: 6 / span 3;
+    grid-row: 41 / span 4;    
+}
+.gallery-immunefi__item--27{
+    grid-column: 6 / span 3;
+    grid-row: 41 / span 4;    
+}
+.gallery-immunefi__item--28{
+    grid-column: 6 / span 3;
+    grid-row: 41 / span 4;    
+}
+.gallery-immunefi__item--29{
+    grid-column: 6 / span 3;
+    grid-row: 41 / span 4;    
+}
+.gallery-immunefi__item--30{
+    grid-column: 6 / span 3;
+    grid-row: 41 / span 4;    
+}
+.gallery-immunefi__item--31{
+    grid-column: 6 / span 3;
+    grid-row: 41 / span 4;    
+}
+.gallery-immunefi__item--32{
+    grid-column: 6 / span 3;
+    grid-row: 41 / span 4;    
+}
+.gallery-immunefi__item--33{
+    grid-column: 6 / span 3;
+    grid-row: 41 / span 4;    
+}
+.gallery-immunefi__item--34{
+    grid-column: 6 / span 3;
+    grid-row: 41 / span 4;    
+}
+.gallery-immunefi__item--35{
+    grid-column: 6 / span 3;
+    grid-row: 41 / span 4;    
+}
+.gallery-immunefi__item--36{
+    grid-column: 6 / span 3;
+    grid-row: 41 / span 4;    
+}
+.gallery-immunefi__item--37{
+    grid-column: 6 / span 3;
+    grid-row: 41 / span 4;    
+}
+
+.gallery-immunefi__text{
+    font-family: $font;
+    font-size: 3vw;
+    text-align: center;
+    color: $silver;
+}
+.gallery-immunefi__desc_first{
+    font-size: 2.8vw;
+    padding: 0 11% 0 11%;
+}
+.gallery-immunefi__desc_last{
+    font-size: 2.8vw;
+    padding: 0 11% 5% 11%;
+    line-height: 130%;
+}
+
+//mobile
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    
+    .gallery-immunefi{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(37, auto);
+        grid-gap: 0.8vw;
+    }
+    .gallery-immunefi__item{
+        grid-column: 1 / auto;
+        grid-row: auto;
+    }
+.arrow-back__link{
+    font-size: 2vw;
+}
+.gallery-immunefi__desc{
+    font-size: 4.5vw;
+    line-height: 140%;
+}
+.gallery-immunefi__text{
+    font-size: 5.5vw;
+}
+}

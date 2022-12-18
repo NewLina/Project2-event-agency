@@ -18,7 +18,7 @@
 .gallery-private-investor-club{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(28, 10vw);
+    grid-template-rows: repeat(35, 10vw);
     grid-gap: 0.6vw;
 }
 
@@ -94,9 +94,34 @@ grid-row: 28 / span 5;
 grid-column: 3 / span 2;
 grid-row: 28 / span 5;    
 }
-
-
-
+.gallery-private-investor-club__item--19{
+    grid-column: 3 / span 2;
+    grid-row: 28 / span 5;    
+}
+    .gallery-private-investor-club__item--20{
+        grid-column: 3 / span 2;
+        grid-row: 28 / span 5;    
+}
+.gallery-private-investor-club__item--21{
+    grid-column: 3 / span 2;
+    grid-row: 28 / span 5;    
+}
+.gallery-private-investor-club__item--22{
+    grid-column: 3 / span 2;
+    grid-row: 28 / span 5;    
+}
+.gallery-private-investor-club__item--23{
+    grid-column: 3 / span 2;
+    grid-row: 28 / span 5;    
+}
+.gallery-private-investor-club__item--24{
+    grid-column: 3 / span 2;
+    grid-row: 28 / span 5;    
+}
+.gallery-private-investor-club__item--25{
+    grid-column: 3 / span 2;
+    grid-row: 28 / span 5;    
+}
 .page-private-investor-club__text{
     font-family: $font;
     font-size: 3vw;
