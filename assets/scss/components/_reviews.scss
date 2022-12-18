@@ -1,7 +1,7 @@
 .reviews {
     display: grid;
     grid-template-rows: 0.1fr 0.7fr 0.1fr;
-    background-color: #0D0E1A;
+    background-color: $dark-blue;
     background-size: cover;
 }
 
@@ -43,21 +43,21 @@
 
 .reviews__brands {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 390px);
-    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+    grid-gap: 30px;
     font-family: 'Garamond';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 40px;
-    color: #000000;
-    padding: 10px;
+    font-size: 30px;
+    line-height: 35px;
+    color: $dark-blue;
+    padding: 20px;
     align-items: stretch;
     max-width: 100%;
     object-fit: cover;
     justify-content: space-around;
     position: relative;
-    top: -80px;
+    top: -90px;
     padding-bottom: 0;
 }
 
@@ -131,6 +131,24 @@
     justify-content: center;
 }
 
+.brand-two__image {
+    padding-bottom: 25px;
+}
+
+.brand-three__image,
+.brand-four__image,
+.brand-six__image {
+    padding: 30px;
+}
+
+.brand-five__image {
+    padding: 25px;
+    font-family: $font;
+    color: $dark-blue;
+    font-size: 40px;
+}
+
+
 @media screen and (min-width: 320px) and (max-width:767px) {
 
     .reviews {
@@ -173,4 +191,10 @@
         color: #000000;
     }
 
+    .brand-five__image {
+        padding: 25px;
+        font-family: $font;
+        color: $dark-blue;
+        font-size: 25px;
+    }
 }
