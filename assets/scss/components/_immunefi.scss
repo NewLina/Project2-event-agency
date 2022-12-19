@@ -19,7 +19,7 @@
 .gallery-immunefi{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(73, 10vw);
+    grid-template-rows: repeat(72, 10vw);
     grid-gap: 0.6vw;
 }
 
@@ -165,7 +165,7 @@ grid-row: 45 / span 4;
 
 .gallery-immunefi__text{
     font-family: $font;
-    font-size: 3vw;
+    font-size: 4vw;
     text-align: center;
     color: $silver;
 }
@@ -177,6 +177,11 @@ grid-row: 45 / span 4;
     font-size: 2.8vw;
     padding: 0 11% 5% 11%;
     line-height: 130%;
+}
+.gallery-immunefi__heading{
+    border-bottom: 1px solid $silver;
+    margin: 5% 10% 5% 10%;
+padding-bottom: 2%;
 }
 
 //mobile

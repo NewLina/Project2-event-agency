@@ -38,7 +38,7 @@ img {
 .beglobe-images {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    grid-template-rows: repeat(20, auto);
+    grid-template-rows: repeat(29, auto);
     grid-gap: 1vw;
 }
 
@@ -192,4 +192,7 @@ img {
     font-size: 4vw;
     color: $silver;
     text-align: center;
+    border-bottom: 1px solid $silver;
+    margin: 5% 10% 5% 10%;
+padding-bottom: 2%;
 }

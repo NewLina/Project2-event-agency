@@ -8,7 +8,7 @@
 .partners{
     display: grid;
     grid-template-areas: "partners__heading" "partners__list";
-    grid-template-columns: 8% 1fr;
+    grid-template-columns: 9% 1fr;
     height: max-content;
 }
 
@@ -28,7 +28,8 @@
     writing-mode: vertical-lr;
     transform: rotate(-180deg);
     color: $silver;
-    font-size: 3.5vw;
+    font-size: 5.2vw;
+    margin-left: 50%;
 }
 
 .partners__list__img{
@@ -57,5 +58,9 @@ justify-items: center;
     }
     .partners__list__logo{
         width: 25vw;
+    }
+    .partners__heading_vertical{
+        font-size: 7vw;
+        margin-left: 35%;
     }
 }

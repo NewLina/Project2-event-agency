@@ -90,7 +90,7 @@ grid-column: 1 / span 8;
 
 .gallery-soulcation__text{
     font-family: $font;
-    font-size: 3vw;
+    font-size: 4vw;
     text-align: center;
     color: $silver;
 }
@@ -119,6 +119,10 @@ grid-column: 1 / span 8;
 .arrow-back__pic{
     width: 1.8%;
 }
+.gallery-soulcation__heading{
+    border-bottom: 1px solid $silver;
+    margin: 5% 10% 5% 10%;
+padding-bottom: 2%;}
 
 //mobile
 @media screen and (min-width: 320px) and (max-width: 480px) {
