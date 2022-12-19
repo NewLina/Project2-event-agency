@@ -14,7 +14,7 @@
 
 .partners__heading{
     grid-area: partners__heading;
-    background-color: #141414;
+    background-color: $light-blue;
     display: grid;
     grid-template-rows: 20% auto 20%;
 }

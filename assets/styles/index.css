@@ -288,7 +288,7 @@ html {
   }
 }
 .gallery {
-  background-color: #12121D;
+  background-color: #0C0C16;
   text-align: center;
   width: 100%;
 }
@@ -396,7 +396,7 @@ html {
 
 .partners__heading {
   grid-area: partners__heading;
-  background-color: #141414;
+  background-color: #12121D;
   display: grid;
   grid-template-rows: 20% auto 20%;
 }
