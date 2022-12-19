@@ -13,6 +13,7 @@ html {
     background: #13131E;
     padding: 0 15px;
     transition: 0.3s;
+    z-index: 100;
 }
 
 .logo a {
@@ -46,6 +47,7 @@ html {
     font-size: 3vw;
     background: linear-gradient(#C0C0C0 0 0) 0 100% /var(--t,0) 2px no-repeat;
     transition: 0.5s;
+    font-size: 30px !important;
 }
 
 .menu li a:hover {
@@ -170,6 +172,7 @@ html {
         font-size: 3vw;
         background: linear-gradient(#C0C0C0 0 0) 0 100% /var(--t,0) 2px no-repeat;
         transition: 0.5s;
+        
     }
     
     .menu li a:hover {

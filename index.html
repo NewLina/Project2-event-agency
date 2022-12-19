@@ -6,7 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/styles/normalize.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="../assets/styles/index.css">
+=======
+    <link rel="stylesheet" href="./assets/styles/index.css">
+>>>>>>> 26d6e51b8aab181c13f366bfd464bf3d1aabd1de
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>OH MY EVENTS</title>
@@ -24,6 +28,7 @@
                 <li><a href="#about_me">ABOUT</a></li>
                 <li><a href="#gallery">GALLERY</a></li>
                 <li><a href="#partners">PARTNERS</a></li>
+                <li><a href="#review">REVIEW</a></li>
                 <li><a href="#contacts">CONTACTS</a></li>
             </ul>
         </div>
@@ -110,7 +115,7 @@
                 <p class="text-desc text-desc_about-me text-desc_about-me_first">We make guests talk about your events
                     with an excited “OH MY”! </p>
                 <p class="text-desc text-desc_about-me text-desc_about-me_second">I am Vera Sycheva, a founder of OH MY
-                    Events. Based in Portugal, OH MY Events is your perfect partner in crime for creating notable,
+                    Events. Based in Portugal, our agency is your perfect partner in crime for creating notable,
                     unique, and stylish events worldwide. Specializing in MICE, network, and private sector, we provide
                     our clients with unparalleled event management, expertise, and creativity, turning your ideas (even
                     the boldest ones) into reality.
@@ -190,13 +195,46 @@
             </div>
         </section>
 
-        <section>
-            Video
+        <section class="video">
+            <div style="height: 100%; overflow-x: hidden; text-align: center">
+                <div class="csslider infinity" id="slider_1">
+                <input type="radio" name="slides" checked="checked" id="slides_1"/>
+                <input type="radio" name="slides" id="slides_2"/>
+                    <ul>
+                        <li>
+                            <p>
+                            <video class="video-center" controls preload>
+                            <source src="../assets/video/CATO.mp4" />
+                            </video>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                            <video class="video-center" controls preload>
+                            <source src="../assets/video/Immunefi.mp4" />
+                            </video>
+                            </p>
+                        </li>
+                    </ul>
+                        <div class="arrows">
+                            <label for="slides_1"></label>
+                            <label for="slides_2"></label>
+                            <label class="goto-first" for="slides_1"></label>
+                            <label class="goto-last" for="slides_2"></label>
+                        </div>
+                        <div class="navigation">
+                            <div>
+                                <label for="slides_1"></label>
+                                <label for="slides_2"></label>
+                            </div>
+                        </div>
+                </div>
+            </div>
         </section>
 
         <section class="partners" id="partners">
             <div class="partners__heading">
-                <h2 class="partners__heading_vertical">PARTNERS</h2>
+                <h2 class="partners__heading_vertical">OH MY CLIENTS</h2>
             </div>
             <div class="partners__list">
                 <div class="partners__list__logo partners__list__logo--1"> <img class="partners__list__img"
@@ -224,12 +262,12 @@
             </div>
         </section>
 
-        <section class="reviews">
+        <section class="reviews" id="review">
             <div class="reviews__title"> OH MY REVIEWS</div>
             <div class="reviews__image"></div>
             <div class="reviews__brands">
                 <div class="brand-one">
-                    <div class="brand-one__image"> <img src="../assets/images/beglobe-small-small.png" alt="logo1">
+                    <div class="brand-title"> <strong>BE GLOBE</strong>
                     </div>
                     <div class="brand-one__words">"Vera is the best Project Manager and Event Manager on a global scale.
                         Having worked with Vera for a number of years now, I can only emphasize her client focus and her
@@ -238,7 +276,7 @@
                         a contractor, but a partner who will complete tasks on a turnkey basis" </div>
                 </div>
                 <div class="brand-two">
-                    <div class="brand-two__image"><img src="../assets/images/theuntitled.png" alt="logo1"> </div>
+                    <div class="brand-title"><strong>THE UNTITLED</strong></div>
                     <div class="brand-two__words"> "The communication and alignment is what set OH MY Events apart from
                         any
                         agency I've worked with in the past. We have been heard and our vision was implemented with
@@ -247,8 +285,7 @@
                         surely we will rock Lisbon again next year!"</div>
                 </div>
                 <div class="brand-three">
-                    <div class="brand-three__image"><img src="../assets/images/mafamily-small-sss.png" alt="logo1"> <img
-                            src="/assets/images/immunefi-big.png" alt="logo1"> </div>
+                    <div class="brand-title brand-title_top brand-title_bottom"><strong>IMMUNIFI /<p>MA FAMILY</p></strong> </div>
                     <div class="brand-three__words">"We were planning together with Vera the Bug House party, which
                         turned
                         out to be a success among our guests and partners. She got what we were looking for and
@@ -258,7 +295,7 @@
                         and relax, knowing that everything would be arranged at its best!" </div>
                 </div>
                 <div class="brand-four">
-                    <div class="brand-four__image"> <img src="../assets/images/changer-small-small.png" alt="logo1">
+                    <div class="brand-title"> <strong>CHANGER CLUB</strong>
                     </div>
                     <div class="brand-four__words">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod
@@ -266,7 +303,7 @@
                         exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
                 </div>
                 <div class="brand-five">
-                    <div class="brand-five__image"> <strong>PRIVATE INVESTOR CLUB</strong> </div>
+                    <div class="brand-title brand-title_top"> <strong>PRIVATE INVESTOR CLUB</strong> </div>
                     <div class="brand-five__words"> "We totally enjoyed working with Vera! Her superpowers are precision
                         and
                         stress tolerance. All changing inputs and pivots were handled professionally and calmly (still
@@ -279,7 +316,7 @@
                         totally delightful."</div>
                 </div>
                 <div class="brand-six">
-                    <div class="brand-six__image"><img src="../assets/images/influ2_logo_white.svg" alt="logo1"> </div>
+                    <div class="brand-title"><strong>INFLU2 </strong> </div>
                     <div class="brand-six__words"> "Thank you so much for your work. Actually for everything you have
                         done!
                         We had many last-minute operational changes from our side and you have been so reactive! Thanks
