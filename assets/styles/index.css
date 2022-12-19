@@ -66,6 +66,7 @@ html {
   background: #13131E;
   padding: 0 15px;
   transition: 0.3s;
+  z-index: 100;
 }
 
 .logo a {
@@ -99,6 +100,7 @@ html {
   font-size: 3vw;
   background: linear-gradient(#C0C0C0 0 0) 0 100%/var(--t, 0) 2px no-repeat;
   transition: 0.5s;
+  font-size: 30px !important;
 }
 
 .menu li a:hover {
@@ -383,13 +385,17 @@ html {
 }
 .video {
   background-color: #12121D;
+  padding-top: 4vh;
 }
 
-​ .csslider {
-  -moz-perspective: 1300px;
-  -ms-perspective: 1300px;
-  -webkit-perspective: 1300px;
-  perspective: 1300px;
+​.video-center {
+  margin: 0px auto;
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+.csslider {
   display: inline-block;
   text-align: left;
   position: relative;
@@ -709,6 +715,7 @@ video {
 }
 
 .partners__heading_vertical {
+  font-size: 48px !important;
   grid-row-start: 2;
   grid-row-end: 3;
   align-self: center;
@@ -878,31 +885,21 @@ video {
   text-align: justify;
 }
 
-.brand-one__image,
-.brand-two__image,
-.brand-three__image,
-.brand-four__image,
-.brand-five__image,
-.brand-six__image {
+.brand-title {
   display: grid;
   justify-content: center;
-}
-
-.brand-two__image {
-  padding-bottom: 25px;
-}
-
-.brand-three__image,
-.brand-four__image,
-.brand-six__image {
-  padding: 30px;
-}
-
-.brand-five__image {
   padding: 25px;
   font-family: "EB Garamond";
   color: #0C0C16;
   font-size: 40px;
+}
+
+.brand-title_top {
+  padding-top: 0% !important;
+}
+
+.brand-title_bottom {
+  padding-bottom: 0%;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -941,7 +938,7 @@ video {
     line-height: 30px;
     color: #000000;
   }
-  .brand-five__image {
+  .brand-title {
     padding: 25px;
     font-family: "EB Garamond";
     color: #0C0C16;

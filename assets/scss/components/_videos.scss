@@ -1,12 +1,15 @@
 .video {
     background-color: $light-blue;
+    padding-top: 4vh;
 }
-​
+​.video-center {
+    margin:0px auto;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
 .csslider {
-    -moz-perspective: 1300px;
-    -ms-perspective: 1300px;
-    -webkit-perspective: 1300px;
-    perspective: 1300px;
+    
     display: inline-block;
     text-align: left;
     position: relative;
