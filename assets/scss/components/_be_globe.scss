@@ -132,6 +132,13 @@ img {
     padding: 0;
 }
 
+.beglobe-images__sixteen {
+    object-fit: cover;
+    grid-column: 1/span 4;
+    margin: 0;
+    padding: 0;
+}
+
 .beglobe-images__ten {
     object-fit: cover;
     grid-column: 1/span 1;
@@ -142,13 +149,6 @@ img {
 .beglobe-images__twelve {
     object-fit: cover;
     grid-column: 2/span 1;
-    margin: 0;
-    padding: 0;
-}
-
-.beglobe-images__sixteen {
-    object-fit: cover;
-    grid-column: 1/span 4;
     margin: 0;
     padding: 0;
 }
