@@ -1,54 +1,60 @@
 
 .contacts{
-    background: url("../images/contacts_background.jpg");
+    background-image: url(../images/contacts_background-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    color: $silver;
-    font-size: 2vw;
     padding: 2%;
     height: max-content;
 }
 
+.contacts__title {
+    display: grid;
+    text-align: center;
+    color: #F7F0F0;
+    font-size: 5.3vw;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
 .contacts__text{
     text-align: center;
-}
-.contacts__text h1{
-    font-family: $font-light;
-    font-size: 4vw;
-    color: #f7f0f0;
-    padding-bottom: 2%;
+    font-size: 3.5vw;
+    color: #F7F0F0;
 }
 
 .socials-img{
     width: 10%;
     height: 10%;
     color: #f7f0f0;
-    padding-right: 5%;
+    padding-right: 3%;
     padding-bottom: 2%;
     &:hover{
         transform: scale(1.1)
     }
 }
+
 .contacts__social li{
     list-style-type: none;
     cursor: pointer;
 }
 
+li {
+    display: inline;
+    margin-right: 50px;
+}
 .socials-link{
     color: #f7f0f0;
-    font-size: 3vw;
+    font-size: 3.8vw;
     &:hover{
         color: $silver;
         text-decoration: none;
     }
 }
 
+
 .contacts__social{
-display: grid;
-grid-template-columns: 30% auto 30%;
-}
+    display: grid;
+    align-items: center;
+    }
 .social-networks{
     grid-column-start: 2;
     grid-column-end: 4;

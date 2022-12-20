@@ -1019,33 +1019,33 @@ video {
   }
 }
 .contacts {
-  background: url("../images/contacts_background.jpg");
+  background-image: url(../images/contacts_background-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  color: #C0C0C0;
-  font-size: 2vw;
   padding: 2%;
   height: max-content;
 }
 
-.contacts__text {
+.contacts__title {
+  display: grid;
   text-align: center;
+  color: #F7F0F0;
+  font-size: 5.3vw;
+  padding-top: 5%;
+  padding-bottom: 2%;
 }
 
-.contacts__text h1 {
-  font-family: "PF Garamond Text";
-  font-size: 4vw;
-  color: #f7f0f0;
-  padding-bottom: 2%;
+.contacts__text {
+  text-align: center;
+  font-size: 3.5vw;
+  color: #F7F0F0;
 }
 
 .socials-img {
   width: 10%;
   height: 10%;
   color: #f7f0f0;
-  padding-right: 5%;
+  padding-right: 3%;
   padding-bottom: 2%;
 }
 .socials-img:hover {
@@ -1057,9 +1057,14 @@ video {
   cursor: pointer;
 }
 
+li {
+  display: inline;
+  margin-right: 50px;
+}
+
 .socials-link {
   color: #f7f0f0;
-  font-size: 3vw;
+  font-size: 3.8vw;
 }
 .socials-link:hover {
   color: #C0C0C0;
@@ -1068,7 +1073,7 @@ video {
 
 .contacts__social {
   display: grid;
-  grid-template-columns: 30% auto 30%;
+  align-items: center;
 }
 
 .social-networks {
