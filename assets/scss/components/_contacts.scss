@@ -1,6 +1,6 @@
 
 .contacts{
-    background: url("../images/contacts_fon.png");
+    background: url("../images/contacts_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -8,7 +8,7 @@
     color: $silver;
     font-size: 2vw;
     padding: 2%;
-    height: 30%;
+    height: max-content;
 }
 
 .contacts__text{
@@ -22,11 +22,14 @@
 }
 
 .socials-img{
-    width: 12%;
-    height: 12%;
+    width: 10%;
+    height: 10%;
     color: #f7f0f0;
     padding-right: 5%;
     padding-bottom: 2%;
+    &:hover{
+        transform: scale(1.1)
+    }
 }
 .contacts__social li{
     list-style-type: none;
@@ -38,8 +41,10 @@
     font-size: 3vw;
     &:hover{
         color: $silver;
+        text-decoration: none;
     }
 }
+
 .contacts__social{
 display: grid;
 grid-template-columns: 30% auto 30%;
@@ -49,7 +54,31 @@ grid-template-columns: 30% auto 30%;
     grid-column-end: 4;
 }
 
-
+.icon-item__img{
+    width: 100%;
+    height: 100%;
+    color: #f7f0f0;
+    padding-left: 25%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
+.icon-item{
+    width: 8%;
+    height: 8%;
+}
+.contacts__social-icons{
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+}
+.icon-item__link{
+    cursor: pointer;
+}
+.icon-item__img{
+    &:hover{
+        transform: scale(1.1);
+    }
+}
 @media screen and (min-width: 320px) and (max-width:767px) {
     .content{
         padding-top: 1%;
