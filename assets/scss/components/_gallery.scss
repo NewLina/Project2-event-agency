@@ -18,10 +18,10 @@
     font-family: $font;
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 5.2vw;
     line-height: 30px;
     margin: 0px;
-    padding-top: 10%;
+    padding-top: 7%;
     padding-bottom: 6%;
     background-size: cover;
 }
@@ -125,8 +125,15 @@
             grid-gap: 0.8vw;
         }
         .gallery-content{
-            grid-column:1/auto;
+            grid-column:1 / auto;
             grid-row: auto;
+        }
+
+        .gallery-content__title{
+            font-size: 4vw;
+        }
+        .gallery-content_text{
+            font-size: 4vw;;
         }
 }
     
