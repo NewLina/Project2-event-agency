@@ -1,9 +1,15 @@
 .content{
     background-color: $light-blue;
     display: grid;
-    grid-template-areas: "content__picture" "content__text";
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 99%;
+    grid-template-columns: repeat(2,1fr);
+}
+.content__picture{
+    grid-column: 1 / span 1;
+    grid-area: 1 / span 1;
+}
+.content__text{
+    grid-column: 2 / span 1;
+    grid-area: 1 / span 1;
 }
 
 .content__text{
@@ -41,12 +47,18 @@
     .content{
         background-color: $light-blue;
         display: grid;
-        grid-template-areas: "content__picture" "content__text";
-        grid-template-columns: 100vw;
-        grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: 100%;
+            grid-template-rows: repeat(2, auto);
+            grid-gap: 0.8vw;
+    }
+    .content__picture{
+        grid-column:1 / auto;
+            grid-row: auto;
     }
     .content__text{
         max-height: max-content;
+        grid-column:1 / auto;
+            grid-row: auto;
     }
     .text-title{
             font-size: 10vw;}

@@ -16,10 +16,9 @@
     grid-area: partners__heading;
     background-color: $light-blue;
     display: grid;
-    grid-template-rows: 20% auto 20%;
+    grid-template-rows: 5% auto 5%;
 }
 .partners__heading_vertical{
-    font-size: 48px !important;
     grid-row-start: 2;
     grid-row-end: 3;
     align-self: center;
