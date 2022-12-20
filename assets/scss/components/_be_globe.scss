@@ -192,3 +192,32 @@ img {
     margin: 5% 10% 5% 10%;
     padding-bottom: 2%;
 }
+
+//mobile
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .arrow-back__link {
+        font-size: 2vw;
+    }
+
+    .beglobe-images {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(18, auto);
+        grid-gap: 0.8vw;
+    }
+
+    .pic {
+        grid-column: 1 / auto;
+        grid-row: auto;
+    }
+
+    .beglobe__head {
+        font-size: 5.5vw;
+    }
+
+    .beglobe__heading,
+    .beglobe__desc {
+        font-size: 4.5vw;
+        line-height: 140%;
+    }
+}
