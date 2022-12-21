@@ -170,7 +170,7 @@
 
     .reviews__brands {
         display: grid;
-        grid-template-columns: repeat(auto-fit, auto);
+        grid-template-columns: 1fr;
         grid-gap: 20px;
         font-family: 'Garamond';
         font-style: normal;
@@ -178,6 +178,8 @@
         font-size: 20px;
         line-height: 30px;
         color: #000000;
+        margin-left: 4em;
+        margin-right: 4em;
     }
 
     .brand-title {
