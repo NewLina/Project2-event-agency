@@ -1,5 +1,5 @@
 .reviews {
-    display: grid;
+   display: grid;
     grid-template-rows: 0.1fr 0.7fr 0.1fr;
     background-color: $dark-blue;
     background-size: cover;
@@ -16,9 +16,10 @@
     color: #C0C0C0;
     justify-content: center;
     position: relative;
-    padding: 15px;
     max-width: 100%;
     background-size: cover;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .reviews__title:after {
@@ -30,15 +31,16 @@
     position: absolute;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 2%;
     margin-top: 1.5em;
 }
 
 .reviews__image {
-    background-image: url(/assets/images/m-0081.png);
+    background-image: url(/assets/images/bag_review.png);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
-    background-position: center center;
+    background-position: center;
 }
 
 .reviews__brands {
@@ -58,7 +60,8 @@
     justify-content: space-around;
     position: relative;
     top: -90px;
-    padding-bottom: 0;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
 }
 
 .brand-one {

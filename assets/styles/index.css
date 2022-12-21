@@ -57,13 +57,15 @@ html {
 }
 
 .header {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 0;
+  margin-bottom: -500px;
   position: relative;
   max-width: 100%;
   height: 20vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #13131E;
   padding: 0 15px;
   transition: 0.3s;
   z-index: 100;
@@ -368,13 +370,32 @@ html {
 }
 
 .gallery-content__title {
-  color: #C0C0C0;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  font-family: "Garamond";
+  font-style: normal;
   font-weight: 400;
   font-size: 5.2vw;
-  line-height: 30px;
-  margin: 0px;
-  padding-top: 7%;
-  padding-bottom: 6%;
+  line-height: 84px;
+  color: #C0C0C0;
+  position: relative;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.gallery-content__title:after {
+  content: " ";
+  background: #C0C0C0;
+  width: 80%;
+  height: 1px;
+  bottom: 15px;
+  position: absolute;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1.5em;
 }
 
 .gallery-content_item {
@@ -403,16 +424,16 @@ html {
 }
 
 .gallery-content_text {
-  text-decoration: none;
+  text-decoration: none !important;
   opacity: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #C0C0C0;
+  color: #ffffff !important;
   font-family: "EB Garamond";
   font-weight: 400;
-  font-size: 1.5vw;
+  font-size: 2.5vw;
   cursor: pointer;
   z-index: 4;
   transition: 0.3s ease-in-out;
@@ -853,9 +874,10 @@ video {
   color: #C0C0C0;
   justify-content: center;
   position: relative;
-  padding: 15px;
   max-width: 100%;
   background-size: cover;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .reviews__title:after {
@@ -867,15 +889,16 @@ video {
   position: absolute;
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 2%;
   margin-top: 1.5em;
 }
 
 .reviews__image {
-  background-image: url(/assets/images/m-0081.png);
+  background-image: url(/assets/images/bag_review.png);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
-  background-position: center center;
+  background-position: center;
 }
 
 .reviews__brands {
@@ -895,7 +918,8 @@ video {
   justify-content: space-around;
   position: relative;
   top: -90px;
-  padding-bottom: 0;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
 }
 
 .brand-one {
