@@ -861,6 +861,7 @@ video {
   grid-template-rows: 0.1fr 0.7fr 0.1fr;
   background-color: #0C0C16;
   background-size: cover;
+  margin-bottom: -20em;
 }
 
 .reviews__title {
@@ -1006,6 +1007,7 @@ video {
     grid-template-rows: 1fr 8fr;
     background-color: #0D0E1A;
     background-size: cover;
+    margin-bottom: 0px;
   }
   .reviews__image {
     display: none;

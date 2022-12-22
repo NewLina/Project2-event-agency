@@ -1,8 +1,10 @@
 .reviews {
-   display: grid;
+    display: grid;
     grid-template-rows: 0.1fr 0.7fr 0.1fr;
     background-color: $dark-blue;
     background-size: cover;
+    margin-bottom: -20em;
+    ;
 }
 
 .reviews__title {
@@ -149,6 +151,7 @@
         grid-template-rows: 1fr 8fr;
         background-color: #0D0E1A;
         background-size: cover;
+        margin-bottom: 0px;
     }
 
     .reviews__image {
