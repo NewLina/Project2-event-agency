@@ -460,7 +460,7 @@ html {
     top: 50%;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .gallery-container {
     display: grid;
     grid-template-columns: 100%;
@@ -472,10 +472,10 @@ html {
     grid-row: auto;
   }
   .gallery-content__title {
-    font-size: 8vw;
+    font-size: vw;
   }
   .gallery-content_text {
-    font-size: 4vw;
+    font-size: 6vw;
   }
 }
 .video {
@@ -1549,7 +1549,7 @@ img {
 .beglobe-images {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-template-rows: repeat(29, auto);
+  grid-template-rows: repeat(8, auto);
   grid-gap: 1vw;
 }
 
