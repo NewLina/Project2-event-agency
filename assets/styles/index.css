@@ -84,7 +84,7 @@ html {
 .menu {
   display: flex;
   justify-content: center;
-  flex-direction: rcw;
+  flex-direction: row;
   align-items: center;
   z-index: 3;
   transition: 0.5s;
@@ -472,7 +472,7 @@ html {
     grid-row: auto;
   }
   .gallery-content__title {
-    font-size: vw;
+    font-size: 8.5vw;
   }
   .gallery-content_text {
     font-size: 6vw;
@@ -1017,8 +1017,7 @@ video {
     text-align: center;
     font-family: "Garamond";
     font-style: normal;
-    font-weight: 5.2vw;
-    font-size: 40px;
+    font-size: 7vw;
     line-height: 30px;
     color: #C0C0C0;
     justify-content: center;
