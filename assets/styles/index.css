@@ -2837,6 +2837,7 @@ img {
   padding: 0;
   max-width: 100%;
   background-color: #12121D;
+  margin: 0 5% 0 5%;
 }
 
 .gallery-soulcation__item {
@@ -2852,105 +2853,105 @@ img {
 
 .gallery-soulcation {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(46, 10vw);
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 10vw);
   grid-gap: 0.5vw;
 }
 
 .gallery-soulcation__item--1 {
-  grid-column: 1/span 8;
-  grid-row: 1/span 4;
+  grid-column: 1/span 3;
+  grid-row: 1/span 3;
 }
 
 .gallery-soulcation__item--2 {
-  grid-column: 1/span 4;
-  grid-row: 5/span 3;
+  grid-column: 4/span 3;
+  grid-row: 1/span 3;
 }
 
 .gallery-soulcation__item--3 {
-  grid-column: 5/span 4;
-  grid-row: 5/span 6;
+  grid-column: 7/span 3;
+  grid-row: 1/span 3;
 }
 
 .gallery-soulcation__item--4 {
-  grid-column: 1/span 4;
-  grid-row: 8/span 3;
+  grid-column: 10/span 3;
+  grid-row: 1/span 3;
 }
 
 .gallery-soulcation__item--5 {
   grid-column: 1/span 4;
-  grid-row: 11/span 5;
+  grid-row: 4/span 3;
 }
 
 .gallery-soulcation__item--6 {
-  grid-column: 5/span 4;
-  grid-row: 11/span 5;
+  grid-column: 5/span 2;
+  grid-row: 4/span 3;
 }
 
 .gallery-soulcation__item--7 {
-  grid-column: 1/span 8;
-  grid-row: 16/span 4;
+  grid-column: 7/span 3;
+  grid-row: 4/span 3;
 }
 
 .gallery-soulcation__item--8 {
-  grid-column: 1/span 4;
-  grid-row: 20/span 4;
+  grid-column: 10/span 3;
+  grid-row: 4/span 3;
 }
 
 .gallery-soulcation__item--9 {
-  grid-column: 5/span 4;
-  grid-row: 20/span 4;
+  grid-column: 1/span 3;
+  grid-row: 7/span 3;
 }
 
 .gallery-soulcation__item--10 {
-  grid-column: 1/span 4;
-  grid-row: 24/span 5;
+  grid-column: 4/span 3;
+  grid-row: 7/span 3;
 }
 
 .gallery-soulcation__item--11 {
-  grid-column: 5/span 4;
-  grid-row: 24/span 4;
+  grid-column: 7/span 3;
+  grid-row: 7/span 3;
 }
 
 .gallery-soulcation__item--12 {
-  grid-column: 1/span 4;
-  grid-row: 29/span 5;
+  grid-column: 10/span 3;
+  grid-row: 7/span 3;
 }
 
 .gallery-soulcation__item--13 {
-  grid-column: 5/span 4;
-  grid-row: 28/span 6;
+  grid-column: 1/span 4;
+  grid-row: 10/span 3;
 }
 
 .gallery-soulcation__item--14 {
-  grid-column: 1/span 4;
-  grid-row: 34/span 6;
+  grid-column: 5/span 2;
+  grid-row: 10/span 3;
 }
 
 .gallery-soulcation__item--15 {
-  grid-column: 5/span 4;
-  grid-row: 34/span 6;
+  grid-column: 7/span 4;
+  grid-row: 10/span 3;
 }
 
 .gallery-soulcation__item--16 {
-  grid-column: 1/span 8;
-  grid-row: 40/span 7;
+  grid-column: 11/span 2;
+  grid-row: 10/span 3;
 }
 
 .gallery-soulcation__text {
   font-family: "EB Garamond";
-  font-size: 4vw;
+  font-size: 2vw;
   text-align: center;
   color: #C0C0C0;
 }
 
 .gallery-soulcation__desc_first {
-  font-size: 2.8vw;
-  padding: 0 11% 3% 11%;
+  font-size: 1.8vw;
+  padding: 0 11% 2.5% 11%;
 }
 
 .gallery-soulcation__desc_last {
-  font-size: 2.8vw;
+  font-size: 1.8vw;
   padding: 0 11% 5% 11%;
   line-height: 130%;
 }
@@ -2963,19 +2964,19 @@ img {
   text-decoration: none;
   color: #C0C0C0;
   cursor: pointer;
-  font-size: 2vw;
+  font-size: 1.7vw;
 }
 .arrow-back__link:hover {
   color: #F5F5F5;
 }
 
 .arrow-back__pic {
-  width: 1.8%;
+  width: 1.5%;
 }
 
 .gallery-soulcation__heading {
   border-bottom: 1px solid #C0C0C0;
-  margin: 5% 10% 5% 10%;
+  margin: 2% 10% 2% 10%;
   padding-bottom: 2%;
 }
 
