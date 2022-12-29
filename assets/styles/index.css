@@ -46,7 +46,7 @@ html {
   grid-template-areas: "header" "main" "footer";
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
-  background-color: #12121D;
+  background-color: #0C0C16;
 }
 
 * {
@@ -337,7 +337,7 @@ html {
   grid-row: 1/span 3;
 }
 
-.gallery-conten-3 {
+.gallery-content-3 {
   grid-column: 9/span 4;
   grid-row: 6/span 4;
 }
