@@ -46,6 +46,7 @@ html {
   grid-template-areas: "header" "main" "footer";
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
+  background-color: #12121D;
 }
 
 * {
@@ -229,11 +230,17 @@ html {
   background-color: #12121D;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: max-content;
+  margin: 0 10% 0 10%;
 }
 
 .content__picture {
   grid-column: 1/span 1;
   grid-area: 1/span 1;
+  background-image: url(../images/aboutMe_photo.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .content__text {
@@ -251,55 +258,57 @@ html {
   padding: 0 9% 0 9%;
 }
 
-.photo_me {
-  width: 100%;
-}
-
 .text-title {
   font-family: "PF Garamond Text";
   border-bottom: 1px solid #C0C0C0;
-  font-size: 5.3vw;
-  padding-top: 8%;
+  font-size: 3vw;
+  padding-top: 10%;
 }
 
 .text-desc {
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 .text-desc_about-me_first {
   font-weight: 500;
+  padding-top: 3%;
 }
 
 .text-desc_about-me_third {
   font-weight: 700;
+  padding-bottom: 5%;
 }
 
 .text-desc_about-me_second {
   font-weight: 300;
+  padding-bottom: 3%;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .content {
-    background-color: #12121D;
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(2, auto);
-    grid-gap: 0.8vw;
+    grid-template-rows: 1.3fr 1fr;
+    grid-template-columns: 1fr;
+    margin: 0;
   }
   .content__picture {
-    grid-column: 1/auto;
-    grid-row: auto;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-size: cover;
   }
   .content__text {
-    max-height: max-content;
-    grid-column: 1/auto;
-    grid-row: auto;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
   }
   .text-title {
     font-size: 10vw;
   }
   .text-desc_about-me {
-    font-size: 4.2vw;
+    font-size: 3.5vw;
   }
   .text-title_about-me {
     margin-bottom: 7%;
