@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: max-content;
-    margin: 0 8% 0 8%;
+    margin: 0 0 0 0;
 }
 .content__picture{
     grid-column: 1 / span 1;

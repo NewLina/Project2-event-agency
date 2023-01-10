@@ -13,7 +13,7 @@
     font-family: 'Garamond';
     font-style: normal;
     font-weight: 400;
-    font-size: 5.2vw;
+    font-size: 3vw;
     line-height: 84px;
     color: #C0C0C0;
     justify-content: center;
@@ -42,6 +42,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
+    max-height: 60%;
     background-position: center;
 }
 
@@ -52,16 +53,15 @@
     font-family: 'Garamond';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 35px;
-    color: $dark-blue;
+    font-size: 1.5vw;
+    color: #000000;
     padding: 20px;
     align-items: stretch;
     max-width: 100%;
     object-fit: cover;
     justify-content: space-around;
     position: relative;
-    top: -90px;
+    top: -280px;
     padding-bottom: 0%;
     margin-bottom: 0%;
 }
@@ -129,20 +129,12 @@
 .brand-title {
     display: grid;
     justify-content: center;
-    padding: 25px;
-    font-family: $font;
+    padding: 15px;
+    
     color: $dark-blue;
-    font-size: 40px;
+    font-size: 2vw;
 }
 
-.brand-title_top {
-    padding-top: 0% !important;
-    text-align: center;
-}
-
-.brand-title_bottom {
-    padding-bottom: 0%;
-}
 
 @media screen and (min-width: 320px) and (max-width:767px) {
 

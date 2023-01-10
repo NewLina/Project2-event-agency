@@ -59,11 +59,11 @@ html {
 
 .header {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px 0;
+  padding: 10px 0;
   margin-bottom: -500px;
   position: relative;
   max-width: 100%;
-  height: 20vh;
+  height: 15vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,8 +78,8 @@ html {
 
 .logo a img {
   display: block;
-  width: 75%;
-  height: 95%;
+  width: 65%;
+  height: 85%;
 }
 
 .menu {
@@ -100,10 +100,9 @@ html {
   text-decoration: none;
   display: block;
   padding: 1px 25px;
-  font-size: 3vw;
+  font-size: 2vw;
   background: linear-gradient(#C0C0C0 0 0) 0 100%/var(--t, 0) 2px no-repeat;
   transition: 0.5s;
-  font-size: 30px !important;
 }
 
 .menu li a:hover {
@@ -231,7 +230,7 @@ html {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: max-content;
-  margin: 0 8% 0 8%;
+  margin: 0 0 0 0;
 }
 
 .content__picture {
@@ -317,7 +316,7 @@ html {
 .gallery {
   background-color: #0C0C16;
   text-align: center;
-  margin: 0 8% 0 8%;
+  margin: 0 0 0 0;
 }
 
 .gallery-container {
@@ -852,16 +851,20 @@ video {
   writing-mode: vertical-lr;
   transform: rotate(-180deg);
   color: #C0C0C0;
-  font-size: 5.2vw;
+  font-family: "Garamond";
+  font-style: normal;
+  font-size: 3vw;
   margin-left: 50%;
 }
 
 .partners__list__img {
   object-fit: fill;
+  width: 80%;
+  height: 70%;
 }
 
 .partners__list__logo {
-  width: 60%;
+  width: 70%;
 }
 
 .partners__list {
@@ -902,7 +905,7 @@ video {
   font-family: "Garamond";
   font-style: normal;
   font-weight: 400;
-  font-size: 5.2vw;
+  font-size: 3vw;
   line-height: 84px;
   color: #C0C0C0;
   justify-content: center;
@@ -931,6 +934,7 @@ video {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
+  max-height: 60%;
   background-position: center;
 }
 
@@ -941,16 +945,15 @@ video {
   font-family: "Garamond";
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 35px;
-  color: #0C0C16;
+  font-size: 1.5vw;
+  color: #000000;
   padding: 20px;
   align-items: stretch;
   max-width: 100%;
   object-fit: cover;
   justify-content: space-around;
   position: relative;
-  top: -90px;
+  top: -280px;
   padding-bottom: 0%;
   margin-bottom: 0%;
 }
@@ -1018,19 +1021,9 @@ video {
 .brand-title {
   display: grid;
   justify-content: center;
-  padding: 25px;
-  font-family: "EB Garamond";
+  padding: 15px;
   color: #0C0C16;
-  font-size: 40px;
-}
-
-.brand-title_top {
-  padding-top: 0% !important;
-  text-align: center;
-}
-
-.brand-title_bottom {
-  padding-bottom: 0%;
+  font-size: 2vw;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -1088,13 +1081,13 @@ video {
   display: grid;
   text-align: center;
   color: #F7F0F0;
-  font-size: 5.3vw;
+  font-size: 3vw;
   padding-top: 5%;
 }
 
 .contacts__text {
   text-align: center;
-  font-size: 3.5vw;
+  font-size: 1.5vw;
   color: #F7F0F0;
 }
 
@@ -1186,13 +1179,13 @@ video {
 }
 
 .footer__logo img {
-  width: 75%;
-  height: 95%;
+  width: 55%;
+  height: 65%;
 }
 
 .footer__back_to_top img {
-  width: 75%;
-  height: 95%;
+  width: 55%;
+  height: 75%;
 }
 
 .footer__back_to_top a span {
