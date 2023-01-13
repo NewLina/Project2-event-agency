@@ -28,6 +28,11 @@
     width: 10%;
     height: 10%;
 }
+
+.socials-item--5, .socials-item--6{
+    width: 2.2%;
+    height: 2.2%;
+}
 .socials-img{
     width: 100%;
     height: 100%;
@@ -41,8 +46,16 @@
     flex-direction: row;
     gap: 1.5%;
     justify-content: center;
+    padding-bottom: 2%;
+}
+.contacts__social-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5%;
+    justify-content: center;
     padding-bottom: 5%;
 }
+
 .socials-link, .socials-img{
     cursor: pointer;
 }
@@ -56,7 +69,7 @@
     }
 }
 .socials-item--2{
-    width: 15%;
+    width: 14%;
 }
 .socials-item--4{
     width: 20%;
