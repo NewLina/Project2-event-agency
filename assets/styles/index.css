@@ -1030,10 +1030,11 @@ video {
   .reviews {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 1fr 8fr;
+    grid-template-rows: 12% 1fr;
     background-color: #0D0E1A;
     background-size: cover;
-    margin-bottom: 0px;
+    margin-top: 1%;
+    margin-bottom: -10%;
   }
   .reviews__image {
     display: none;
@@ -1061,6 +1062,7 @@ video {
     font-size: 20px;
     line-height: 30px;
     color: #000000;
+    margin-top: 17%;
   }
   .brand-title {
     padding: 25px;
@@ -3029,7 +3031,7 @@ video {
     font-size: 5.5vw;
   }
   .arrow-back__link {
-    font-size: 4vw;
+    font-size: 5vw;
   }
   .arrow-back__pic {
     width: 4%;
