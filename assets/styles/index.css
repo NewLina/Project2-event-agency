@@ -225,6 +225,10 @@ html {
     --t: 100%;
   }
 }
+
+.carousel-inner {
+  height: 620px;
+}
 .content {
   background-color: #12121D;
   display: grid;
