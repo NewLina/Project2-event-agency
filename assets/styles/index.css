@@ -174,9 +174,6 @@ html {
   right: 0;
 }
 
-.carousel-inner {
-  height: 620px;
-}
 @media screen and (max-width: 1200px) {
   .hamburger,
   .toggle-menu {
@@ -886,8 +883,13 @@ video {
     height: max-content;
     padding-bottom: 10%;
   }
+  .partners__list__img {
+    object-fit: fill;
+    width: 80%;
+    height: 70%;
+  }
   .partners__list__logo {
-    width: 25vw;
+    width: 90%;
   }
   .partners__heading_vertical {
     font-size: 7vw;

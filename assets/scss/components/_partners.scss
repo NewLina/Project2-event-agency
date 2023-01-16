@@ -46,9 +46,9 @@
 .partners__list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-grid-gap: 2%;
-padding: 5% 0 5% 5%;
-justify-items: center;
+    grid-gap: 2%;
+    padding: 5% 0 5% 5%;
+    justify-items: center;
 }
 
 
@@ -60,8 +60,13 @@ justify-items: center;
         height: max-content;
         padding-bottom: 10%;
     }
+    .partners__list__img{
+        object-fit: fill;
+        width: 80%;
+        height: 70%;
+    }
     .partners__list__logo{
-        width: 25vw;
+        width: 90%;
     }
     .partners__heading_vertical{
         font-size: 7vw;
