@@ -80,18 +80,25 @@
     .content{
         padding-top: 1%;
     }
-    .content__text{
-        max-height: max-content;
-    }
     .socials-link--4, .socials-link--2{
         font-size: 4vw;
     }
     .socials-item--2{
-        width: 18%;
+        width: 20%;
     }
     .socials-item--4{
         width: 25%;
     }
+    .contacts__title {
+        font-size: 7vw;
+    }
+    .contacts__text {
+        font-size: 5vw;
+    }
+    .socials-link--4, .socials-link--2{
+        font-size: 3vw;
+    }
+
 }
 @media screen and (min-width: 481px) and (max-width:767px){
     .socials-link--4, .socials-link--2{
@@ -103,4 +110,14 @@
     .socials-item--4{
         width: 26%;
     }
+    .contacts__title {
+        font-size: 7vw;
+    }
+    .contacts__text {
+        font-size: 5vw;
+    }
+    .socials-link--4, .socials-link--2{
+        font-size: 3vw;
+    }
+    
 }
