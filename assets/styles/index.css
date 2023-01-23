@@ -675,7 +675,7 @@ html {
   border-radius: 50%;
   margin: 0 4px;
   padding: 4px;
-  background: #3A3A3A;
+  background: #3a3a3a;
 }
 
 .csslider > .navigation label:hover:after {
@@ -741,7 +741,7 @@ html {
   position: absolute;
   top: -50%;
   padding: 13px;
-  box-shadow: inset 2px -2px 0 1px #3A3A3A;
+  box-shadow: inset 2px -2px 0 1px #3a3a3a;
   cursor: pointer;
   -moz-transition: box-shadow 0.15s, margin 0.15s;
   -o-transition: box-shadow 0.15s, margin 0.15s;
@@ -848,7 +848,7 @@ ul {
 /*#videos */
 /*___________________________________ LAYOUT ___________________________________ */
 video {
-  width: 710px;
+  max-width: 710px;
   height: 400px;
   background: transparent url("") no-repeat 0 0;
   -webkit-background-size: cover;
@@ -857,6 +857,11 @@ video {
   background-size: cover;
 }
 
+@media screen and (max-width: 800px) {
+  .video {
+    display: none;
+  }
+}
 .partners__list {
   background: url(../images/background_partners.png);
   background-repeat: no-repeat;
