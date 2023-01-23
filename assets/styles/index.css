@@ -75,13 +75,12 @@ html {
 }
 
 .logo a {
-  width: 100%;
   display: block;
 }
 
 .logo a img {
   display: block;
-  width: 100%;
+  width: 75%;
   height: 95%;
 }
 
@@ -161,6 +160,9 @@ html {
   }
   .header {
     padding: 10px 0px;
+  }
+  .logo {
+    width: 100%;
   }
   .logo a img {
     display: block;
