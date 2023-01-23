@@ -52,7 +52,7 @@
 @media screen and (min-width: 320px) and (max-width:767px) {
 .content{
     display: grid;
-    grid-template-rows: 1.3fr 1fr;
+    grid-template-rows: 0.8fr 0.7fr;
     grid-template-columns: 1fr;
     margin: 0;
 }
@@ -61,7 +61,7 @@
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 2;
-background-size: cover;
+        background-size: cover;
     }
     .content__text{
         grid-column-start: 1;
@@ -70,9 +70,9 @@ background-size: cover;
         grid-row-end: 3;
     }
     .text-title{
-            font-size: 10vw;}
+            font-size: 7.5vw;}
     .text-desc_about-me{
-        font-size: 3.5vw;
+        font-size: 4.5vw;
     }
     .text-title_about-me{
         margin-bottom: 7%;

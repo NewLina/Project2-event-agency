@@ -175,6 +175,7 @@ html {
 		padding: 10px 0;
 		margin-bottom: -200px;
 		height: 15vh;
+		background-color: $dark-blue;
 	}
 
 	.logo a img {
@@ -199,6 +200,7 @@ html {
 		padding: 0;
 		margin-bottom: -130px;
 		height: 12vh;
+		background-color: $dark-blue;
 	}
 
 	.toggle-menu {
@@ -209,13 +211,17 @@ html {
 	.hamburger {
 		top: 40px;
 		right: 50px;
+	}
+	.menu li a {
+		font-size: 0.5vw;
 	}
 }
 
 @media screen and (max-width: 470px) {
 	.header {
 		margin: 0;
-		height: 10vh;
+		height: 12vh;
+		background-color: $dark-blue;
 	}
 
 	.toggle-menu {
@@ -226,5 +232,8 @@ html {
 	.hamburger {
 		top: 30px;
 		right: 50px;
+	}
+	.menu li a {
+		font-size: 0.5vw;
 	}
 }

@@ -327,14 +327,14 @@ video {
 
 @media screen and (max-width: 660px) {
 	.csslider > ul {
-		width: 320px;
-		height: 220px;
+		width: 520px;
+		height: 320px;
 		margin: 5px;
 	}
 
 	.video__example {
-		width: 320px;
-		height: 220px;
+		width: 520px;
+		height: 320px;
 	}
 	.video {
 		padding-bottom: 30px;
@@ -343,17 +343,27 @@ video {
 
 @media screen and (max-width: 460px) {
 	.csslider > ul {
-		width: 220px;
-		height: 120px;
+		width: 320px;
+		height: 220px;
 		margin: 5px;
 	}
 
 	.video__example {
-		width: 220px;
-		height: 120px;
+		width: 320px;
+		height: 220px;
 	}
 
 	.video {
 		padding-bottom: 30px;
+	}
+	.csslider > .arrows label:before {
+		content: '';
+		position: absolute;
+		top: -300%;
+		left: -300%;
+		height: 300%;
+		width: 300%;
+		padding: 0%;
+		margin: 0%;
 	}
 }

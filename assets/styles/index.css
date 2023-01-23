@@ -218,6 +218,7 @@ html {
     padding: 10px 0;
     margin-bottom: -200px;
     height: 15vh;
+    background-color: #0C0C16;
   }
   .logo a img {
     display: block;
@@ -238,6 +239,7 @@ html {
     padding: 0;
     margin-bottom: -130px;
     height: 12vh;
+    background-color: #0C0C16;
   }
   .toggle-menu {
     top: 40px;
@@ -246,12 +248,16 @@ html {
   .hamburger {
     top: 40px;
     right: 50px;
+  }
+  .menu li a {
+    font-size: 0.5vw;
   }
 }
 @media screen and (max-width: 470px) {
   .header {
     margin: 0;
-    height: 10vh;
+    height: 12vh;
+    background-color: #0C0C16;
   }
   .toggle-menu {
     top: 30px;
@@ -260,6 +266,9 @@ html {
   .hamburger {
     top: 30px;
     right: 50px;
+  }
+  .menu li a {
+    font-size: 0.5vw;
   }
 }
 .content {
@@ -323,7 +332,7 @@ html {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .content {
     display: grid;
-    grid-template-rows: 1.3fr 1fr;
+    grid-template-rows: 0.8fr 0.7fr;
     grid-template-columns: 1fr;
     margin: 0;
   }
@@ -341,10 +350,10 @@ html {
     grid-row-end: 3;
   }
   .text-title {
-    font-size: 10vw;
+    font-size: 7.5vw;
   }
   .text-desc_about-me {
-    font-size: 3.5vw;
+    font-size: 4.5vw;
   }
   .text-title_about-me {
     margin-bottom: 7%;
@@ -540,7 +549,7 @@ html {
     grid-row: auto;
   }
   .gallery-content__title {
-    font-size: 8.5vw;
+    font-size: 7.5vw;
   }
   .gallery-content_text {
     font-size: 6vw;
@@ -874,13 +883,13 @@ video {
 }
 @media screen and (max-width: 660px) {
   .csslider > ul {
-    width: 320px;
-    height: 220px;
+    width: 520px;
+    height: 320px;
     margin: 5px;
   }
   .video__example {
-    width: 320px;
-    height: 220px;
+    width: 520px;
+    height: 320px;
   }
   .video {
     padding-bottom: 30px;
@@ -888,16 +897,26 @@ video {
 }
 @media screen and (max-width: 460px) {
   .csslider > ul {
-    width: 220px;
-    height: 120px;
+    width: 320px;
+    height: 220px;
     margin: 5px;
   }
   .video__example {
-    width: 220px;
-    height: 120px;
+    width: 320px;
+    height: 220px;
   }
   .video {
     padding-bottom: 30px;
+  }
+  .csslider > .arrows label:before {
+    content: "";
+    position: absolute;
+    top: -300%;
+    left: -300%;
+    height: 300%;
+    width: 300%;
+    padding: 0%;
+    margin: 0%;
   }
 }
 .partners__list {
@@ -1129,7 +1148,7 @@ video {
     text-align: center;
     font-family: "Garamond";
     font-style: normal;
-    font-size: 7vw;
+    font-size: 7.5vw;
     line-height: 30px;
     color: #C0C0C0;
     justify-content: center;
@@ -1144,7 +1163,7 @@ video {
     font-family: "Garamond";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 4.5vw;
     line-height: 30px;
     color: #000000;
     margin-top: 17%;
@@ -1153,7 +1172,7 @@ video {
     padding: 25px;
     font-family: "EB Garamond";
     color: #0C0C16;
-    font-size: 25px;
+    font-size: 5.5vw;
   }
 }
 .contacts {
@@ -1248,10 +1267,10 @@ video {
     font-size: 4vw;
   }
   .socials-item--2 {
-    width: 20%;
+    width: 40%;
   }
   .socials-item--4 {
-    width: 25%;
+    width: 40%;
   }
   .contacts__title {
     font-size: 7vw;
@@ -1260,7 +1279,17 @@ video {
     font-size: 5vw;
   }
   .socials-link--4, .socials-link--2 {
-    font-size: 3vw;
+    font-size: 4vw;
+  }
+  .socials-img {
+    width: 180%;
+    height: 180%;
+  }
+  .contacts__social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 4.5%;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 767px) {
@@ -1268,10 +1297,10 @@ video {
     font-size: 2.5vw;
   }
   .socials-item--2 {
-    width: 19%;
+    width: 40%;
   }
   .socials-item--4 {
-    width: 26%;
+    width: 40%;
   }
   .contacts__title {
     font-size: 7vw;
@@ -1280,7 +1309,18 @@ video {
     font-size: 5vw;
   }
   .socials-link--4, .socials-link--2 {
-    font-size: 3vw;
+    font-size: 4vw;
+  }
+  .socials-img {
+    width: 180%;
+    height: 180%;
+  }
+  .contacts__social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 3.5%;
+    justify-content: center;
+    padding-bottom: 5%;
   }
 }
 .footer {
@@ -3150,7 +3190,7 @@ video {
 }
 @media screen and (max-width: 420px) {
   .carusel__title {
-    font-size: 0.7rem;
+    font-size: 0.85rem;
   }
 }
 
