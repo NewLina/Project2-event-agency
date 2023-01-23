@@ -1,7 +1,5 @@
 html {
 	scroll-behavior: smooth;
-	width: 100%;
-	overflow-x: hidden;
 }
 
 .header {
@@ -110,14 +108,12 @@ html {
 		padding: 10px 0px;
 	}
 
-	.logo {
-		width: 100%;
-	}
-
 	.logo a img {
+		// display: block;
+		// width: 60%;
+		// height: 80%;
+		max-width: 100%;
 		display: block;
-		width: 60%;
-		height: 80%;
 	}
 
 	.menu {
