@@ -857,9 +857,47 @@ video {
   background-size: cover;
 }
 
-@media screen and (max-width: 800px) {
+.video__example {
+  width: 720px;
+  height: 400px;
+}
+
+@media screen and (max-width: 860px) {
+  .csslider > ul {
+    width: 520px;
+    height: 320px;
+  }
+  .video__example {
+    width: 520px;
+    height: 320px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .csslider > ul {
+    width: 320px;
+    height: 220px;
+    margin: 5px;
+  }
+  .video__example {
+    width: 320px;
+    height: 220px;
+  }
   .video {
-    display: none;
+    padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .csslider > ul {
+    width: 220px;
+    height: 120px;
+    margin: 5px;
+  }
+  .video__example {
+    width: 220px;
+    height: 120px;
+  }
+  .video {
+    padding-bottom: 30px;
   }
 }
 .partners__list {
