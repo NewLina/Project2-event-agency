@@ -104,16 +104,22 @@ html {
 		top: 10px;
 	}
 
+	// .logo {
+	// 	max-width: 100%;
+	// 	display: block;
+	// 	border: 12px solid red;
+	// }
+
 	.header {
 		padding: 10px 0px;
 	}
 
 	.logo a img {
-		// display: block;
-		// width: 60%;
-		// height: 80%;
-		max-width: 100%;
 		display: block;
+		width: 60%;
+		height: 80%;
+		// max-width: 100%;
+		// display: block;
 	}
 
 	.menu {

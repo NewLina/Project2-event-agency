@@ -160,8 +160,9 @@ html {
     padding: 10px 0px;
   }
   .logo a img {
-    max-width: 100%;
     display: block;
+    width: 60%;
+    height: 80%;
   }
   .menu {
     display: flex;
