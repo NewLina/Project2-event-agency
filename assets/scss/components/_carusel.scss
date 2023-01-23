@@ -1,6 +1,16 @@
-
 .carusel__title {
-    font-family: $font-light;
-    font-weight: 700;
+	font-family: $font-light;
+	font-weight: 700;
 }
 
+@media screen and (max-width: 550px) {
+	.carusel__title {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.carusel__title {
+		font-size: 0.7rem;
+	}
+}
