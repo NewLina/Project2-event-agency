@@ -256,7 +256,7 @@ html {
 @media screen and (max-width: 470px) {
   .header {
     margin: 0;
-    height: 12vh;
+    height: 9vh;
     background-color: #0C0C16;
   }
   .toggle-menu {
@@ -1184,6 +1184,8 @@ video {
     font-family: "EB Garamond";
     color: #0C0C16;
     font-size: 5.5vw;
+    text-align: center;
+    justify-content: center;
   }
 }
 .contacts {
