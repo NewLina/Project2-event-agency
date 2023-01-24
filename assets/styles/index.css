@@ -129,7 +129,7 @@ html {
   .hamburger {
     display: flex;
     align-items: center;
-    position: fixed;
+    position: absolute;
     top: 100px;
     right: 100px;
     width: 26px;
@@ -168,7 +168,7 @@ html {
   .menu {
     display: flex;
     flex-direction: column;
-    position: fixed;
+    position: absolute;
     visibility: hidden;
     top: 0px;
     right: 0px;
@@ -184,7 +184,7 @@ html {
     margin: 30px 0;
     color: #c0c0c0;
     text-decoration: none;
-    font-size: 3vw;
+    font-size: 2vw;
     background: linear-gradient(#c0c0c0 0 0) 0 100%/var(--t, 0) 2px no-repeat;
     transition: 0.5s;
   }
@@ -351,6 +351,7 @@ html {
   }
   .text-title {
     font-size: 7.5vw;
+    font-style: normal;
   }
   .text-desc_about-me {
     font-size: 4.5vw;
@@ -528,7 +529,11 @@ html {
     grid-row: auto;
   }
   .gallery-content__title {
-    font-size: 8.5vw;
+    font-family: "PF Garamond Text";
+    font-style: normal;
+    font-size: 7.5vw;
+    line-height: 30px;
+    color: #C0C0C0;
   }
   .gallery-content_text {
     font-size: 6vw;
@@ -550,6 +555,8 @@ html {
   }
   .gallery-content__title {
     font-size: 7.5vw;
+    font-family: "PF Garamond Text";
+    font-style: normal;
   }
   .gallery-content_text {
     font-size: 6vw;
@@ -994,6 +1001,10 @@ video {
     font-size: 7vw;
     margin-left: 35%;
   }
+  .partners__heading_vertical {
+    font-family: "PF Garamond Text";
+    font-style: normal;
+  }
 }
 .reviews {
   display: grid;
@@ -1146,7 +1157,7 @@ video {
   .reviews__title {
     display: grid;
     text-align: center;
-    font-family: "Garamond";
+    font-family: "PF Garamond Text";
     font-style: normal;
     font-size: 7.5vw;
     line-height: 30px;
@@ -1169,7 +1180,7 @@ video {
     margin-top: 17%;
   }
   .brand-title {
-    padding: 25px;
+    padding: 10px;
     font-family: "EB Garamond";
     color: #0C0C16;
     font-size: 5.5vw;
@@ -1261,7 +1272,7 @@ video {
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .content {
-    padding-top: 1%;
+    padding-top: 3%;
   }
   .socials-link--4, .socials-link--2 {
     font-size: 4vw;
@@ -1279,7 +1290,7 @@ video {
     font-size: 5vw;
   }
   .socials-link--4, .socials-link--2 {
-    font-size: 4vw;
+    font-size: 3.7vw;
   }
   .socials-img {
     width: 180%;
@@ -1309,7 +1320,7 @@ video {
     font-size: 5vw;
   }
   .socials-link--4, .socials-link--2 {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .socials-img {
     width: 180%;
@@ -1325,7 +1336,7 @@ video {
 }
 .footer {
   position: relative;
-  height: 20vh;
+  height: 16vh;
   background-color: #0C0C16;
   display: flex;
   flex-direction: row;
@@ -1347,6 +1358,12 @@ video {
   cursor: pointer;
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .footer {
+    position: relative;
+    height: 8vh;
+  }
+}
 .page-private-investor-club {
   margin: 0;
   padding: 0;

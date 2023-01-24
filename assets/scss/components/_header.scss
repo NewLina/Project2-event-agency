@@ -75,7 +75,7 @@ html {
 	.hamburger {
 		display: flex;
 		align-items: center;
-		position: fixed;
+		position: absolute;
 		top: 100px;
 		right: 100px;
 		width: 26px;
@@ -118,7 +118,7 @@ html {
 	.menu {
 		display: flex;
 		flex-direction: column;
-		position: fixed;
+		position: absolute;
 		visibility: hidden;
 		top: 0px;
 		right: 0px;
@@ -135,7 +135,7 @@ html {
 		margin: 30px 0;
 		color: #c0c0c0;
 		text-decoration: none;
-		font-size: 3vw;
+		font-size: 2vw;
 		background: linear-gradient(#c0c0c0 0 0) 0 100% / var(--t, 0) 2px no-repeat;
 		transition: 0.5s;
 	}

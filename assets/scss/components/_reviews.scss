@@ -155,7 +155,7 @@
     .reviews__title {
         display: grid;
         text-align: center;
-        font-family: 'Garamond';
+        font-family: $font-light;
         font-style: normal;
         font-size: 7.5vw;
         line-height: 30px;
@@ -182,7 +182,7 @@
 
 
     .brand-title {
-        padding: 25px;
+        padding: 10px;
         font-family: $font;
         color: $dark-blue;
         font-size: 5.5vw;

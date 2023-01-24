@@ -1,7 +1,7 @@
 
   .footer {
     position: relative;
-    height: 20vh;
+    height: 16vh;
     background-color: $dark-blue; 
     display: flex;
     flex-direction: row;
@@ -22,4 +22,11 @@
 
   .footer__back_to_top a span {
     cursor: pointer;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 480px){
+    .footer {
+      position: relative;
+      height: 8vh;
+    }
   }

@@ -159,10 +159,15 @@
         }
 
         .gallery-content__title{
-            font-size: 8.5vw;
+            font-family: $font-light;
+            font-style: normal;
+            font-size: 7.5vw;
+            line-height: 30px;
+            color: #C0C0C0;
         }
         .gallery-content_text{
-            font-size: 6vw;;
+            font-size: 6vw;
+            
         }
 }
 
@@ -183,6 +188,8 @@
 
     .gallery-content__title{
         font-size: 7.5vw;
+        font-family: $font-light;
+        font-style: normal;
     }
     .gallery-content_text{
         font-size: 6vw;;
