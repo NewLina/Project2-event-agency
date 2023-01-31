@@ -100,10 +100,9 @@ html {
   text-decoration: none;
   display: block;
   padding: 1px 25px;
-  font-size: 3vw;
+  font-size: 2vw;
   background: linear-gradient(#c0c0c0 0 0) 0 100%/var(--t, 0) 2px no-repeat;
   transition: 0.5s;
-  font-size: 30px !important;
 }
 
 .menu li a:hover {
@@ -250,7 +249,7 @@ html {
     right: 50px;
   }
   .menu li a {
-    font-size: 0.5vw;
+    font-size: 5vw;
   }
 }
 @media screen and (max-width: 470px) {
@@ -268,7 +267,7 @@ html {
     right: 50px;
   }
   .menu li a {
-    font-size: 0.5vw;
+    font-size: 5vw;
   }
 }
 .content {
@@ -3215,6 +3214,100 @@ video {
 @media screen and (max-width: 420px) {
   .carusel__title {
     font-size: 0.85rem;
+  }
+}
+.services {
+  background-color: #12121D;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: max-content;
+  margin: 0 0 0 0;
+}
+
+.services__picture {
+  grid-column: 2/span 1;
+  grid-area: 1/span 1;
+  background-image: url(../images/cato/cato11.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services__text {
+  grid-column: 1/span 1;
+  grid-area: 1/span 1;
+}
+
+.services__text {
+  color: #C0C0C0;
+  text-align: center;
+  padding-top: 10%;
+  background-image: url(../images/backgroundlines.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 9% 0 9%;
+}
+
+.ul_services {
+  font-size: 1.5vw;
+  text-align: left;
+}
+
+.text-title_services {
+  font-family: "PF Garamond Text";
+  border-bottom: 1px solid #C0C0C0;
+  font-size: 3vw;
+  padding-top: 10%;
+}
+
+.text-desc_services {
+  font-size: 1.5vw;
+  padding-top: 3%;
+}
+
+.text-desc_services_third {
+  font-weight: 700;
+  padding-bottom: 5%;
+}
+
+.text-desc_services_second {
+  font-weight: 300;
+  padding-bottom: 3%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .services {
+    display: grid;
+    grid-template-rows: 0.8fr 0.7fr;
+    grid-template-columns: 1fr;
+    margin: 0;
+  }
+  .services__picture {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-size: cover;
+  }
+  .services__text {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .text-title_services {
+    font-size: 7.5vw;
+    font-style: normal;
+  }
+  .text-desc_services {
+    font-size: 4.5vw;
+  }
+  .ul_services {
+    font-size: 4.5vw;
+    text-align: left;
+  }
+  .text-title_services {
+    margin-bottom: 7%;
   }
 }
 

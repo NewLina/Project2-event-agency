@@ -1,0 +1,90 @@
+.services{
+    background-color: $light-blue;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: max-content;
+    margin: 0 0 0 0;
+}
+.services__picture{
+    grid-column: 2 / span 1;
+    grid-area: 1 / span 1;
+    background-image: url(../images/cato/cato11.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services__text{
+    grid-column: 1 / span 1;
+    grid-area: 1 / span 1;
+}
+
+.services__text{
+    color: $silver;
+    text-align: center;
+    padding-top: 10%;
+    background-image: url(../images/backgroundlines.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 9% 0 9%;
+}
+
+.ul_services{
+    font-size: 1.5vw;
+    text-align: left;
+}
+
+.text-title_services{
+    font-family: $font-light;
+    border-bottom: 1px solid $silver;
+    font-size: 3vw;
+    padding-top: 10%;
+}
+.text-desc_services{
+    font-size: 1.5vw;
+    padding-top: 3%;
+}
+
+.text-desc_services_third{
+    font-weight: 700;
+    padding-bottom: 5%;
+}
+.text-desc_services_second{
+    font-weight: 300;
+    padding-bottom: 3%;
+}
+
+@media screen and (min-width: 320px) and (max-width:767px) {
+    .services{
+    display: grid;
+    grid-template-rows: 0.8fr 0.7fr;
+    grid-template-columns: 1fr;
+    margin: 0;
+    }
+    .services__picture{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-size: cover;
+    }
+    .services__text{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .text-title_services {
+        font-size: 7.5vw;
+        font-style: normal;
+        }
+    .text-desc_services{
+        font-size: 4.5vw;
+    }
+    .ul_services{
+        font-size: 4.5vw;
+        text-align: left;
+    }
+    .text-title_services{
+        margin-bottom: 7%;
+    }
+}

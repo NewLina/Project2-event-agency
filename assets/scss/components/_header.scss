@@ -45,10 +45,9 @@ html {
 	text-decoration: none;
 	display: block;
 	padding: 1px 25px;
-	font-size: 3vw;
+	font-size: 2vw;
 	background: linear-gradient(#c0c0c0 0 0) 0 100% / var(--t, 0) 2px no-repeat;
 	transition: 0.5s;
-	font-size: 30px !important;
 }
 
 .menu li a:hover {
@@ -213,7 +212,7 @@ html {
 		right: 50px;
 	}
 	.menu li a {
-		font-size: 0.5vw;
+		font-size: 5vw;
 	}
 }
 
@@ -234,6 +233,6 @@ html {
 		right: 50px;
 	}
 	.menu li a {
-		font-size: 0.5vw;
+		font-size: 5vw;
 	}
 }
