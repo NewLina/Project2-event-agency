@@ -20,7 +20,7 @@
     position: relative;
     max-width: 100%;
     background-size: cover;
-    padding-top: 3%;
+    padding-top: 0%;
     padding-bottom: 3%;
 }
 
@@ -34,7 +34,7 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 2%;
-    margin-top: 1.5em;
+
 }
 
 .reviews__image {
@@ -135,6 +135,19 @@
     font-size: 2vw;
 }
 
+.brand_img{
+    border-radius: 50%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    height: 100px;
+    width: 100px;
+}
+
+.img_container{
+    display: flex;
+    justify-content: center;
+}
+
 
 @media screen and (min-width: 320px) and (max-width:767px) {
 
@@ -145,7 +158,7 @@
         background-color: #0D0E1A;
         background-size: cover;
         margin-top: 1%;
-        margin-bottom: -10%;
+        margin-bottom: -3%;
     }
 
     .reviews__image {
@@ -187,5 +200,12 @@
         font-size: 5.5vw;
         text-align: center;
         justify-content: center;
+    }
+
+    .brand_img{
+        height: 70px;
+        width: 70px;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
     }
 }
