@@ -128,7 +128,7 @@ html {
   .hamburger {
     display: flex;
     align-items: center;
-    position: fixed;
+    position: absolute;
     top: 100px;
     right: 100px;
     width: 26px;
@@ -1025,9 +1025,7 @@ video {
   grid-template-rows: 0.1fr 0.7fr 0.1fr;
   background-color: #0C0C16;
   background-size: cover;
-  margin-bottom: -35em;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-bottom: -20em;
 }
 
 .reviews__title {
@@ -1059,6 +1057,15 @@ video {
   margin-bottom: 2%;
 }
 
+.reviews__image {
+  background-image: url(../images/bag_review.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 60%;
+  background-position: center;
+}
+
 .reviews__brands {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
@@ -1068,14 +1075,14 @@ video {
   font-weight: 400;
   font-size: 1.5vw;
   color: #000000;
-  padding: 0px;
+  padding: 20px;
   align-items: stretch;
   max-width: 100%;
   object-fit: cover;
   justify-content: space-around;
   position: relative;
-  top: -500px;
-  padding-bottom: 1%;
+  top: -280px;
+  padding-bottom: 0%;
   margin-bottom: 0%;
 }
 
@@ -1085,7 +1092,7 @@ video {
   padding: 15px;
   opacity: 0.7;
   display: grid;
-  grid-template-rows: 0.1fr 0.3fr 0.1fr 0.1fr;
+  grid-template-rows: 0.1fr 0.3fr;
   text-align: justify;
 }
 
@@ -1095,7 +1102,7 @@ video {
   padding: 15px;
   opacity: 0.7;
   display: grid;
-  grid-template-rows: 0.1fr 0.3fr 0.1fr 0.1fr;
+  grid-template-rows: 0.1fr 0.3fr;
   text-align: justify;
 }
 
@@ -1105,7 +1112,7 @@ video {
   padding: 15px;
   opacity: 0.7;
   display: grid;
-  grid-template-rows: 0.1fr 0.3fr 0.1fr 0.1fr;
+  grid-template-rows: 0.1fr 0.3fr;
   text-align: justify;
 }
 
@@ -1115,7 +1122,7 @@ video {
   padding: 15px;
   opacity: 0.7;
   display: grid;
-  grid-template-rows: 0.1fr 0.3fr 0.1fr 0.1fr;
+  grid-template-rows: 0.1fr 0.3fr;
   text-align: justify;
 }
 
@@ -1125,7 +1132,7 @@ video {
   padding: 15px;
   opacity: 0.7;
   display: grid;
-  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
+  grid-template-rows: 0.1fr 0.3fr;
   text-align: justify;
 }
 
@@ -1135,7 +1142,7 @@ video {
   padding: 15px;
   opacity: 0.7;
   display: grid;
-  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
+  grid-template-rows: 0.1fr 0.3fr;
   text-align: justify;
 }
 
@@ -1160,14 +1167,6 @@ video {
   justify-content: center;
 }
 
-.brand_name {
-  display: flex;
-  justify-content: center;
-  color: #0C0C16;
-  font-size: 1.5vw;
-  font-style: oblique;
-}
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .reviews {
     display: grid;
@@ -1176,7 +1175,7 @@ video {
     background-color: #0D0E1A;
     background-size: cover;
     margin-top: 1%;
-    margin-bottom: 2%;
+    margin-bottom: -3%;
   }
   .reviews__image {
     display: none;
@@ -1204,9 +1203,7 @@ video {
     font-size: 4.5vw;
     line-height: 30px;
     color: #000000;
-    margin-top: 0%;
-    top: -15em;
-    margin-bottom: 20%;
+    margin-top: 17%;
   }
   .brand-title {
     padding: 10px;
@@ -1221,9 +1218,6 @@ video {
     width: 70px;
     margin-bottom: 0%;
     padding-bottom: 0%;
-  }
-  .brand_name {
-    font-size: 5vw;
   }
 }
 .contacts {
@@ -3266,11 +3260,10 @@ video {
 .services__picture {
   grid-column: 2/span 1;
   grid-area: 1/span 1;
-  background-image: url(../images/cato/cato7.jpg);
+  background-image: url(../images/cato/cato11.jpg);
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right bottom;
 }
 
 .services__text {
