@@ -535,7 +535,13 @@ html {
     color: #C0C0C0;
   }
   .gallery-content_text {
-    font-size: 6vw;
+    text-decoration: none !important;
+    opacity: 1;
+    animation: move-down 0.3s linear;
+    padding: 1em;
+    width: 100%;
+    color: #C0C0C0;
+    font-size: 5.5vw;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -559,6 +565,15 @@ html {
   }
   .gallery-content_text {
     font-size: 6vw;
+  }
+  .gallery-content_text {
+    text-decoration: none !important;
+    opacity: 1;
+    animation: move-down 0.3s linear;
+    padding: 1em;
+    width: 100%;
+    color: #C0C0C0;
+    font-size: 5vw;
   }
 }
 .video {
