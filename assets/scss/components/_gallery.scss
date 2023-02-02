@@ -130,6 +130,11 @@
     width: 100%;
     color: $silver;
 }
+.more{
+    font-size: 1.5vw;
+    font-style: oblique;
+}
+
 @keyframes move-down{
     0%{
         top: 10%;
@@ -207,5 +212,9 @@
         width: 100%;
         color: $silver;
         font-size: 5vw;
+    }
+
+    .more{
+        font-size: 4vw;
     }
 }

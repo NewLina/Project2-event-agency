@@ -334,6 +334,7 @@ html {
     grid-template-rows: 0.8fr 0.7fr;
     grid-template-columns: 1fr;
     margin: 0;
+    padding: 0% !important;
   }
   .content__picture {
     grid-column-start: 1;
@@ -502,6 +503,11 @@ html {
   color: #C0C0C0;
 }
 
+.more {
+  font-size: 1.5vw;
+  font-style: oblique;
+}
+
 @keyframes move-down {
   0% {
     top: 10%;
@@ -574,6 +580,9 @@ html {
     width: 100%;
     color: #C0C0C0;
     font-size: 5vw;
+  }
+  .more {
+    font-size: 4vw;
   }
 }
 .video {
@@ -1025,7 +1034,8 @@ video {
   grid-template-rows: 0.1fr 0.7fr 0.1fr;
   background-color: #0C0C16;
   background-size: cover;
-  margin-bottom: -35em;
+  padding-bottom: 0.1%;
+  margin-bottom: 0.1%;
 }
 
 .reviews__title {
@@ -1054,7 +1064,7 @@ video {
   position: absolute;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
 }
 
 .reviews__brands {
@@ -1066,13 +1076,12 @@ video {
   font-weight: 400;
   font-size: 1.5vw;
   color: #000000;
-  padding: 20px;
+  padding-top: 0.8%;
   align-items: stretch;
   max-width: 100%;
   object-fit: cover;
   justify-content: space-around;
   position: relative;
-  top: -480px;
   padding-bottom: 0%;
   margin-bottom: 0%;
 }
@@ -1169,12 +1178,11 @@ video {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .reviews {
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 12% 1fr;
+    grid-template-rows: 0.7fr;
     background-color: #0D0E1A;
     background-size: cover;
     margin-top: 1%;
-    margin-bottom: -20%;
+    margin-bottom: 3%;
   }
   .reviews__image {
     display: none;
@@ -1188,9 +1196,13 @@ video {
     line-height: 30px;
     color: #C0C0C0;
     justify-content: center;
+    margin-bottom: 0% !important;
+    padding-bottom: 1% !important;
   }
   .reviews__title:after {
     display: none;
+    margin-bottom: 0% !important;
+    padding-bottom: 1% !important;
   }
   .reviews__brands {
     display: grid;
@@ -1202,7 +1214,6 @@ video {
     font-size: 4.5vw;
     line-height: 30px;
     color: #000000;
-    margin-top: 45%;
   }
   .brand-title {
     padding: 10px;
@@ -1327,6 +1338,7 @@ video {
   }
   .socials-link--4, .socials-link--2 {
     font-size: 3.7vw;
+    padding-left: 4%;
   }
   .socials-img {
     width: 180%;
