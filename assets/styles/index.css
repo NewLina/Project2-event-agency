@@ -490,7 +490,7 @@ html {
   font-size: 2.5vw;
   cursor: pointer;
   z-index: 4;
-  transition: 0.3s ease-in-out;
+  transition: 0s ease-in-out;
   -webkit-backdrop-filter: blur(5px) saturate(1.8);
   backdrop-filter: blur(5px) saturate(1.8);
 }
@@ -1285,6 +1285,7 @@ video {
   gap: 1.5%;
   justify-content: center;
   padding-bottom: 2%;
+  padding-left: 6%;
 }
 
 .contacts__social-icons {
